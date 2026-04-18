@@ -1,0 +1,25 @@
+.landingpage-bg-img {
+  background-image: url("../../assets/img/hero-img3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.center-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 6rem;
+}
+
+.carousel-container {
+  max-width: 50%;
+  max-height: 50%;
+}
