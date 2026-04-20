@@ -97,6 +97,14 @@ export const Navbar = () => {
                       Calculator 004
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/iconDesign"
+                    >
+                      Icon 005
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
