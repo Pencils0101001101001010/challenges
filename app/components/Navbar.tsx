@@ -55,6 +55,51 @@ export const Navbar = () => {
             <Link className="nav-link text-white" href="/">
               About
             </Link>
+
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dailyui Challenges
+                </Link>
+                <ul className="dropdown-menu dropdown-bg">
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="http://127.0.0.1:5500/1_sign_up/index.html"
+                    >
+                      Signup Page 001
+                    </Link>
+                  </li>{" "}
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="http://127.0.0.1:5500/2_check_out/summary-page.html"
+                    >
+                      Checkout Page 002
+                    </Link>
+                  </li>{" "}
+                  <li>
+                    <Link className="dropdown-item text-white" href="/">
+                      Landing Page 003
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/calculator"
+                    >
+                      Calculator 004
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
