@@ -45,14 +45,14 @@ export const Navbar = () => {
             <Link
               className="nav-link active text-white"
               aria-current="page"
-              href="./home"
+              href="./huis"
             >
               Home
             </Link>
-            <Link className="nav-link text-white" href="/">
+            <Link className="nav-link text-white" href="/features">
               Features
             </Link>
-            <Link className="nav-link text-white" href="/">
+            <Link className="nav-link text-white" href="/about">
               About
             </Link>
 
@@ -69,18 +69,12 @@ export const Navbar = () => {
                 </Link>
                 <ul className="dropdown-menu dropdown-bg">
                   <li>
-                    <Link
-                      className="dropdown-item text-white"
-                      href="http://127.0.0.1:5500/1_sign_up/index.html"
-                    >
+                    <Link className="dropdown-item text-white" href="/huis">
                       Signup Page 001
                     </Link>
                   </li>{" "}
                   <li>
-                    <Link
-                      className="dropdown-item text-white"
-                      href="http://127.0.0.1:5500/2_check_out/summary-page.html"
-                    >
+                    <Link className="dropdown-item text-white" href="about">
                       Checkout Page 002
                     </Link>
                   </li>{" "}
