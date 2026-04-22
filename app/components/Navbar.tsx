@@ -99,6 +99,14 @@ export const Navbar = () => {
                       Icon 005
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/user_profile"
+                    >
+                      User Profile 006
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
