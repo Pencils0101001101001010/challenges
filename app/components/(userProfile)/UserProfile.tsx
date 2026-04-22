@@ -1,11 +1,17 @@
+"use client";
 import "../../styles/UserProfile.css";
 
 const UserProfile = () => {
+  let handleclink = () => {
+    alert("Curious CAT! This is just ui, no logic has been added! ");
+  };
   return (
     <div className="flex-box">
       <div className=" container perant-container">
         <div className="userSection text-center">
-          <button className="editButton btn btn-light">+</button>
+          <button onClick={handleclink} className="editButton btn btn-light">
+            +
+          </button>
           <div className="imgBg"></div>
           <div className="pt-5">
             <h1>Sue Weasley</h1>
@@ -14,7 +20,9 @@ const UserProfile = () => {
         <div className="acountInfo">
           <div className="p-3 text-start">
             <h4>Acount Info</h4>
-            <button className="editButton btn btn-light">+</button>
+            <button className="editButton btn btn-light" onClick={handleclink}>
+              +
+            </button>
             <div className="pt-2 info">
               <p>Permanent</p>
               <p>sw@hogwards.co.za</p>
@@ -25,7 +33,9 @@ const UserProfile = () => {
         <div className="moreInfo">
           <div className="p-3 text-start">
             <h4>Address</h4>
-            <button className="editButton btn btn-light">+</button>
+            <button onClick={handleclink} className="editButton btn btn-light">
+              +
+            </button>
             <div className="pt-2 info">
               <p>20 Melkbosstrand</p>
               <p>Westcoast </p>
