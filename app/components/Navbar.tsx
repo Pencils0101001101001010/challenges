@@ -107,6 +107,14 @@ export const Navbar = () => {
                       User Profile 006
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/userSettings"
+                    >
+                      User Setting 007
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

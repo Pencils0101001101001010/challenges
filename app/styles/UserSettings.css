@@ -1,0 +1,68 @@
+.perant-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 25px 50px 50px 50px 50px 50px 50px 50px;
+  height: 450px;
+  width: 300px;
+  border-radius: 12px;
+  background-color: #1b211a30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.leftArrow {
+  grid-row: span 1;
+  align-self: center;
+  border-bottom: 1px;
+  padding-right: 2rem;
+}
+
+.headerText {
+  grid-row: span 1;
+  align-self: center;
+}
+
+.magnifying-glass {
+  grid-row: span 1;
+  align-self: center;
+  padding-left: 2rem;
+}
+
+.indicator {
+  grid-column: span 3;
+  background-color: rgba(0, 0, 0, 0.563);
+}
+
+.lang {
+  grid-column: span 2;
+  align-self: center;
+  padding-left: 1rem;
+}
+
+.profile {
+  grid-column: span 2;
+  align-self: center;
+  padding-left: 1rem;
+}
+.preferences {
+  grid-column: span 2;
+  align-self: center;
+  padding-left: 1rem;
+}
+.about {
+  grid-column: span 2;
+  align-self: center;
+  padding-left: 1rem;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
