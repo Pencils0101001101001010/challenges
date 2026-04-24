@@ -123,6 +123,14 @@ export const Navbar = () => {
                       404 page 008
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/music-player-layout"
+                    >
+                      Music Player 009
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
