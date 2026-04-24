@@ -130,6 +130,16 @@ h6 {
 }
 
 @media (max-width: 992px) {
+  .screenLayout {
+    height: 100vh;
+    display: flex;
+    background-image: url("../../assets/img/mobileBg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
   /* Hide the sidebars */
   .leftGridSidebar,
   .rightGridSidebar {
@@ -144,12 +154,12 @@ h6 {
 
   /* Ensure music screen fills the space */
   .musicScreenHeader {
-    padding-left: 2rem; /* Move text closer to edge on mobile */
+    padding-left: 1rem; /* Move text closer to edge on mobile */
     padding-top: 15rem;
   }
 
   .musicPlayerWaves {
-    width: 90%;
-    margin-top: 5rem;
+    width: 95%;
+    margin-top: 3rem;
   }
 }
