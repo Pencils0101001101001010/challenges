@@ -1,6 +1,155 @@
 .screenLayout {
   height: 100vh;
   display: flex;
+  background-image: url("../../assets/img/desktopBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   align-items: center;
+}
+
+.grid-Layout {
+  display: grid;
+  grid-template-columns: 230px 1fr 300px;
+  height: 100%;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.leftGridSidebar {
+  background-color: rgba(0, 0, 0, 0.739);
+  padding: 1rem;
+}
+
+.logo {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 80px;
+  color: brown;
+  border: brown solid 2px;
+  border-radius: 50%;
+  background-color: rgba(137, 43, 226, 0.402);
+}
+
+.itemsTopSidebar {
+  padding: 8px 12px;
+  transition: background-color 0.2s ease;
+}
+
+.itemsTopSidebar:hover {
+  background-color: rgba(240, 248, 255, 0.35);
+  border-radius: 10px;
+  width: 200px;
+}
+
+.icon {
+  padding-right: 1rem;
+}
+
+.bottomLeftItems {
+  max-height: 200px;
+}
+
+.leftSidebarTitleAndImages {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  font-size: x-small;
+  padding: 5px;
+}
+
+.musicScreen {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.41);
+  color: white;
+  margin: 1rem;
+
+  border: none;
+}
+
+button:hover {
+  border-bottom: gray solid 2px;
+}
+
+.musicScreenHeader {
+  padding-top: 10rem;
+  padding-left: 7rem;
+}
+
+.hart {
+  color: red;
+}
+
+.musicPlayerWaves {
+  width: 80%;
+  margin-top: 4rem;
+}
+
+input[type="range"] {
+  -webkit-appearance: none; /* Hides default for Chrome/Safari */
+  appearance: none;
+  background: transparent; /* Allows you to style your own track */
+  cursor: pointer;
+  background-color: rgb(255, 0, 251);
+  height: 2px;
+}
+
+.rightGridSidebar {
+  background-color: rgba(0, 0, 0, 0.466);
+  padding: 1rem;
+  height: 40rem;
+}
+
+.RightSidebarTitleAndImages {
+  font-size: small;
+  padding: 5px;
+}
+
+h6 {
+  color: gray;
+}
+
+.rightImages {
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.leftSidebarTitleAndImages:hover {
+  background-color: rgba(240, 248, 255, 0.448);
+}
+
+.RightSidebarTitleAndImages:hover {
+  background-color: rgba(240, 248, 255, 0.448);
+}
+
+@media (max-width: 992px) {
+  /* Hide the sidebars */
+  .leftGridSidebar,
+  .rightGridSidebar {
+    display: none;
+  }
+
+  /* Change grid to a single column */
+  .grid-Layout {
+    grid-template-columns: 1fr;
+    padding-top: 2rem; /* Optional: reduce padding for mobile */
+  }
+
+  /* Ensure music screen fills the space */
+  .musicScreenHeader {
+    padding-left: 2rem; /* Move text closer to edge on mobile */
+    padding-top: 15rem;
+  }
+
+  .musicPlayerWaves {
+    width: 90%;
+    margin-top: 5rem;
+  }
 }
