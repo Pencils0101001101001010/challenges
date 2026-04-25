@@ -14,12 +14,11 @@ export const LandingPage = () => {
       <div className="text-white center-hero row p-5">
         <div className="col-12">
           <h1 className={`${cookie.className} hero-title  `}>
-            Your home, just a little greener.
+            Welcome to your daily UI archives.
           </h1>
 
           <p className="p-1">
-            From our nursery to your doorstep. Warning: May cause a plant
-            addiction.
+            Keep going you doing good! The whole point is learning
           </p>
         </div>
       </div>

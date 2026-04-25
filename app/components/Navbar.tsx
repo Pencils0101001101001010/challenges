@@ -131,6 +131,14 @@ export const Navbar = () => {
                       Music Player 009
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/socialShareBtn"
+                    >
+                      Social Share btn 010
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
