@@ -1,0 +1,47 @@
+.perantContainer {
+  padding: 4rem 2rem;
+}
+
+.pageBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0.5rem;
+}
+
+.cardStyles {
+  margin: 1rem;
+}
+
+.cardStyles:hover {
+  box-shadow: 5px;
+}
+
+/* medium devices */
+
+@media (max-width: 1024px) {
+  .pageBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0.5rem;
+  }
+}
+
+/* Mobile styles */
+
+@media (max-width: 640px) {
+  .pageBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0.5rem;
+  }
+}
+
+/* Id page */
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 100vh;
+}
