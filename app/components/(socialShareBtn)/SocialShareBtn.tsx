@@ -2,6 +2,8 @@ import Image from "next/image";
 import "../../styles/socialSharebtn.css";
 import SocialShareBtnModal from "./socailSharebtnModal";
 
+export const dynamic = "force-dynamic";
+
 const SocialShareBtn = async () => {
   //fetching product data from server
   let data = await fetch("https://fakestoreapi.com/products");
