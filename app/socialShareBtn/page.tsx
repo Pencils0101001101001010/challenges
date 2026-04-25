@@ -1,4 +1,4 @@
-import SocialShareBtn from "../components/(socialShareBtn)/SocialShareBtn";
+import { SocialShareBtn } from "../components/(socialShareBtn)/SocialShareBtn";
 
 function page() {
   return (
