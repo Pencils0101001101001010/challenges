@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "../../styles/socialSharebtn.css";
 import SocialShareBtnModal from "./socailSharebtnModal";
+import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
@@ -11,7 +12,12 @@ export const SocialShareBtn = async () => {
     // 2. Check if the response is actually okay
     if (!res.ok) {
       console.error("Failed to fetch products:", res.status);
-      return <div>Failed to load products. Please try again later.</div>;
+      return (
+        <div className="perantContainer">
+          This page will not work in production, because I'm using a placeholder
+          api.{" "}
+        </div>
+      );
     }
 
     let products = await res.json();
@@ -28,8 +34,10 @@ export const SocialShareBtn = async () => {
                   src={product.image}
                   alt={product.title}
                   fill
+                  priority
                   style={{ objectFit: "contain" }}
                   className="card-img-top"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="card-body">
@@ -45,7 +53,7 @@ export const SocialShareBtn = async () => {
                   price={product.price}
                 />
 
-                {/* <Link href={`/socialShareBtn/${post.id}`}>View Product</Link> */}
+                <Link href={`/socialShareBtn/${product.id}`}>View Product</Link>
               </div>
             </div>
           ))}
