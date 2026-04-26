@@ -77,7 +77,7 @@ export default function SocialShareBtnModal({
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
-              <h5 className="card-title pt-5">{title}</h5>
+              <h5 className="card-title">{title}</h5>
               <p className="card-text text-truncate">{description}</p>
               <p className="card-text text-truncate">R {price}</p>{" "}
               <SocialShareButton />

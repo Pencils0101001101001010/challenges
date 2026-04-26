@@ -45,15 +45,22 @@ export const SocialShareBtn = async () => {
                 <p className="card-text text-truncate">{product.description}</p>
                 <p className="card-text text-truncate">R {product.price}</p>
 
-                <SocialShareBtnModal
-                  id={product.id}
-                  image={product.image}
-                  title={product.title}
-                  description={product.description}
-                  price={product.price}
-                />
+                <div>
+                  <SocialShareBtnModal
+                    id={product.id}
+                    image={product.image}
+                    title={product.title}
+                    description={product.description}
+                    price={product.price}
+                  />
 
-                <Link href={`/socialShareBtn/${product.id}`}>View Product</Link>
+                  <Link
+                    href={`/socialShareBtn/${product.id}`}
+                    className="btn btn-dark"
+                  >
+                    View Product
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
