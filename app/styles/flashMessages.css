@@ -1,0 +1,54 @@
+.perantContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* --- Success Modal (Emerald Glass) --- */
+.successMessage {
+  background: rgba(58, 244, 33, 0.307);
+  backdrop-filter: blur(12px); /* Frosted glass effect */
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 20px;
+  /* Green Mesh Gradient Background */
+  background-image:
+    radial-gradient(at 0% 0%, hsla(161, 75%, 90%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(150, 75%, 92%, 1) 0, transparent 50%);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.successMessage .modal-header {
+  border: none;
+  padding-bottom: 0;
+  color: #065f46; /* Deep emerald text */
+}
+
+/* --- Failed Modal (Ruby Glass) --- */
+.failedMessageBg {
+  background: rgba(245, 132, 132, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 20px;
+  /* Red Mesh Gradient Background */
+  background-image:
+    radial-gradient(at 0% 0%, hsla(0, 100%, 96%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(350, 100%, 95%, 1) 0, transparent 50%);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.failedMessageBg .modal-header {
+  border: none;
+  padding-bottom: 0;
+  color: #991b1b; /* Deep ruby text */
+}
+
+/* --- Extra Polish --- */
+.modal-content {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.modal-body {
+  font-size: 1.1rem;
+  color: #4a5568;
+}

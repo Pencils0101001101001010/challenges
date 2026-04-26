@@ -139,6 +139,14 @@ export const Navbar = () => {
                       Social Share btn 010
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/flashMessage"
+                    >
+                      Flash Messages 011
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
