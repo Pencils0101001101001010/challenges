@@ -36,6 +36,18 @@
   }
 }
 
+/* Make sure the card body is flex and the buttons are at the bottom of the card body. This will ensure that the buttons are always at the bottom of the card, regardless of the content above it. */
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Id page */
 
 .body-container {
