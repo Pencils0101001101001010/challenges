@@ -36,7 +36,7 @@ export const SocialShareBtn = async () => {
                   fill
                   priority
                   style={{ objectFit: "contain" }}
-                  className="card-img-top"
+                  className="card-img-top p-3"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
