@@ -8,7 +8,7 @@ const FlashMessages = () => {
         {/* <!-- Button trigger modal --> */}
         <button
           type="button"
-          className="btn   m-4"
+          className="btn btn-success m-4"
           data-bs-toggle="modal"
           data-bs-target="#SuccessModal"
         >
@@ -35,7 +35,7 @@ const FlashMessages = () => {
                 </h1>
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close "
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>
@@ -52,7 +52,7 @@ const FlashMessages = () => {
         {/* <!-- Button trigger modal --> */}
         <button
           type="button"
-          className="btn m-4"
+          className="btn btn-danger m-4"
           data-bs-toggle="modal"
           data-bs-target="#FailedModal"
         >
