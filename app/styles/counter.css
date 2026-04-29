@@ -3,4 +3,51 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("../../assets/img/mobileBg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.timerBox {
+  padding: 40px;
+  border-radius: 50px;
+  text-align: center;
+  border: 2px solid #600b65;
+  background-color: #600b654f;
+}
+
+.inputStyle {
+  display: flex;
+  justify-content: center;
+}
+.inputStyle input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  background-color: #600b65c4;
+  color: white;
+}
+
+button {
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  background-color: #600b65;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #4b0645;
+  box-shadow: 0 4px 8px rgba(207, 194, 194, 0.2);
+}
+
+.diplayTime {
+  font-size: 48px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
