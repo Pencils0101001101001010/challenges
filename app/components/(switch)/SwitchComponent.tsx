@@ -4,14 +4,16 @@ import { useState } from "react";
 import "../../styles/switch.css";
 
 const SwitchComponent = () => {
+  //~ create the colors for the background
   const onGradient =
     "linear-gradient( #F9F6C4, #FAC213  ,  #F77E21 , #D61C4E  , black, black )";
-
+  //~create the state that will manange the on click
   const [isOn, setIsOn] = useState(onGradient);
 
   const offGradient =
     "linear-gradient( #1E104E , #090040,  #8C00FF , #D61C4E , black, black)";
 
+  //~ callback to set the current state of background
   const changeColour = () => {
     setIsOn((c) => (c === onGradient ? offGradient : onGradient));
   };
