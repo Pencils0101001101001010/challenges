@@ -29,7 +29,7 @@ const SwitchComponent = () => {
         }}
       ></div>
 
-      <button onClick={changeColour}>
+      <button onClick={changeColour} className="buttonOnOff">
         {isOn === offGradient ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"

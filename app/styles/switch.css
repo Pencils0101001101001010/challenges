@@ -6,7 +6,7 @@
   height: 100vh;
 }
 
-button {
+.buttonOnOff {
   z-index: 1;
   background: none;
   border: none;
@@ -30,7 +30,7 @@ button {
 }
 
 @media (max-width: 850px) {
-  button {
+  .buttonOnOff {
     z-index: 1;
     background: none;
     border: none;
@@ -48,7 +48,7 @@ button {
 }
 
 @media (max-width: 600px) {
-  button {
+  .buttonOnOff {
     z-index: 1;
     background: none;
     border: none;
