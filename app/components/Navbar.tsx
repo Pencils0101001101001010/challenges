@@ -155,6 +155,11 @@ export const Navbar = () => {
                       Count Down 014
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="/switch">
+                      Swith 015
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
