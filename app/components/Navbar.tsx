@@ -165,6 +165,11 @@ export const Navbar = () => {
                       Pop Over 016
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="/receipt">
+                      Receipt 017
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
