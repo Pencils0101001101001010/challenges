@@ -82,12 +82,12 @@ const Chart: React.FC = () => {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
-          <Tooltip contentStyle={{ backgroundColor: "#ccc" }} />
+          <Tooltip contentStyle={{ backgroundColor: "#7f7373fe" }} />
           <Legend />
           <Line
             type="monotone"
             dataKey="value"
-            stroke="#8884d8"
+            stroke="#f70521"
             activeDot={{ r: 8 }}
           />
         </LineChart>
