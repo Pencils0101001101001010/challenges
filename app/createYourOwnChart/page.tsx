@@ -29,22 +29,28 @@ function page() {
 
   return (
     <div className="mainContainer1">
-      <div className="containerGrid">
+      <div className="containerGrid text-center">
         <form onSubmit={addItem}>
-          <h1>Create your Chart here</h1>
-          <label htmlFor="name">Name:</label>
+          <h1>Create your Chart</h1>
+          <label className="textStyle" htmlFor="name">
+            Name:
+          </label>
           <br />
           <input
+            className="inputStyle"
             value={name}
             onChange={(e) => setName(e.target.value)}
             type="text"
             placeholder="Field Name..."
           />
           <br />
-          <label htmlFor="value">Percentage:</label>
+          <label className="textStyle" htmlFor="value">
+            Percentage:
+          </label>
           <br />
           <input
             value={percentage}
+            className="inputStyle"
             onChange={(e) => setPercentage(Number(e.target.value))}
             type="number"
           />
