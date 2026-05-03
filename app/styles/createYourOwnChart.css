@@ -1,0 +1,17 @@
+.mainContainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+.submitButton {
+  background: none;
+}

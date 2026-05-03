@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import "../../styles/chart.css";
 import {
   BarChart,
@@ -61,6 +62,8 @@ const data3: ChartData[] = [
 const Chart: React.FC = () => {
   return (
     <div className="mainContainer">
+      <Link href="/createYourOwnChart">Create your own chart</Link>
+      <span></span>
       <ResponsiveContainer width="100%" height={400}>
         <BarChart
           data={data}
