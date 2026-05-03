@@ -170,6 +170,11 @@ export const Navbar = () => {
                       Receipt 017
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="/charts">
+                      Charts 018
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
