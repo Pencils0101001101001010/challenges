@@ -175,6 +175,14 @@ export const Navbar = () => {
                       Charts 018
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/leaderShipBoard"
+                    >
+                      Leader Board 019
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
