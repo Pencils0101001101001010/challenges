@@ -1,7 +1,17 @@
 .mainContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  margin: 0%;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
 }

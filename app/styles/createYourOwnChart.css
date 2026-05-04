@@ -2,17 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  padding-top: 5rem;
+  background-color: black;
+  color: white;
 }
 
 .containerGrid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
   align-items: center;
   width: 60%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .textStyle {
@@ -30,7 +29,8 @@
   background: none;
   margin-top: 1rem;
   border-radius: 10px;
-  border: black solid 1px;
+  border: white solid 1px;
+  color: white;
   padding: 1rem;
 }
 
@@ -43,16 +43,14 @@
   .mainContainer1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+    align-items: flex-start;
   }
 
   .containerGrid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
+    gap: 3;
+    align-items: flex-start;
     width: 90%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
