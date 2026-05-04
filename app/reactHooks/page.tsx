@@ -1,10 +1,14 @@
-import React from "react";
-import Component1 from "../components/(reactHooks)/useContextExample/Component1";
+import "../styles/reactHooks.css";
+import Link from "next/link";
 
 function page() {
   return (
-    <div>
-      <Component1 />
+    <div className="containerMain">
+      <div className="itemsList">
+        <Link href="/example-use-context">UseContext()</Link>
+
+        <Link href="/example-use-ref">UseRef()</Link>
+      </div>
     </div>
   );
 }

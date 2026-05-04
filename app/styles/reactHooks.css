@@ -1,0 +1,11 @@
+.containerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.itemsList {
+  display: grid;
+  grid-template-columns: 1fr;
+}
