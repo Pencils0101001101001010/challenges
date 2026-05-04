@@ -1,6 +1,169 @@
 .mainContainer {
-  display: flex;
-  justify-content: center;
+  padding-top: 5rem;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/img/capeTown.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parentGrid {
+  display: grid;
+  grid-template-columns: 30rem 1fr;
+  /* Set the heigh to a fix height minus 5rem on top */
+  height: calc(100vh - 5rem);
+  overflow: hidden;
+}
+
+.leftGridContainer {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
   align-items: center;
-  height: 100vh;
+
+  height: 100%;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+  /* Chrome, Safari, and Opera */
+  /* Renove the scroll bar */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox */
+  scrollbar-width: none;
+
+  /* IE and Edge */
+  -ms-overflow-style: none;
+}
+.leftGridContainer > span > h2 {
+  gap: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+.leftGridContainer > span {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 50px 36px -28px inset;
+  border-radius: 15px;
+  border-bottom: rgba(0, 0, 0, 0.263) solid 3px;
+  margin-bottom: 4px;
+  background-color: #f9fcf930;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: black;
+}
+
+.leftGridContainer > span:nth-child(1) {
+  background-color: rgba(172, 255, 47, 0.747);
+  border-color: greenyellow;
+}
+.leftGridContainer > span:nth-child(2) {
+  background-color: rgba(255, 255, 0, 0.743);
+  border-color: yellow;
+}
+.leftGridContainer > span:nth-child(3) {
+  background-color: rgba(255, 166, 0, 0.746);
+  border-color: orange;
+}
+
+.leftGridContainer > span:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 50px 36px 28px inset;
+  border-radius: 15px;
+}
+
+.imageStyle {
+  float: left;
+  margin: 1rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.rightGridContainer {
+  display: flex; /* Flex is easier for centering */
+  justify-content: start;
+  align-items: start;
+  height: 95%;
+  border-radius: 10px;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1rem;
+  padding: 5rem;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.37)),
+    url("../../../assets/img/capeTown.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #f9fcf930;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: black;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.rightGridContainer > span > p {
+  font-size: 5rem;
+}
+
+.prizeCard {
+  border-radius: 24px;
+  height: 90%;
+
+  display: flex;
+  align-items: flex-start;
+  padding: 2rem;
+  color: black;
+  font-size: x-large;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .parentGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    overflow: hidden;
+  }
+
+  .leftGridContainer {
+    display: grid;
+    max-width: 400px;
+    color: aliceblue;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+    /* Chrome, Safari, and Opera */
+    /* Renove the scroll bar */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Firefox */
+    scrollbar-width: none;
+
+    /* IE and Edge */
+    -ms-overflow-style: none;
+  }
+
+  .rightGridContainer {
+    border-radius: 10px;
+    max-width: 400px;
+    color: wheat;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.37)),
+      url("../../../assets/img/capeTown.jpg");
+    background-size: cover;
+    background-position: center;
+  }
 }
