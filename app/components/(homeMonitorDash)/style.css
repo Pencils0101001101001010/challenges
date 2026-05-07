@@ -114,7 +114,7 @@
   .MainContainer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: auto;
     height: auto;
     padding: 1rem;
   }
