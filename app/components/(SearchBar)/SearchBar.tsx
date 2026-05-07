@@ -56,6 +56,16 @@ const SearchBar = () => {
       alert("blah!!!!");
       alert("blah!!!!!");
       alert("blah!!!!!!");
+    } else if (inputValue === "shaun" || inputValue === "Shaun") {
+      alert("Awe Awe");
+      alert("Hoe lyk dit?");
+      alert("Geniet al die pop ups... HAHAHA");
+      alert("blah!");
+      alert("blah!!");
+      alert("blah!!!");
+      alert("blah!!!!");
+      alert("blah!!!!!");
+      alert("blah!!!!!!");
     } else if (inputValue === "") {
       alert("you searched nothing ");
     } else {
