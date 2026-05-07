@@ -183,6 +183,14 @@ export const Navbar = () => {
                       Leader Board 019
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="https://imlocal.vercel.app/"
+                    >
+                      Location App 020
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
