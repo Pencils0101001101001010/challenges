@@ -32,7 +32,7 @@ const HomeMonitorDash = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
                 fill="currentColor"
-                className="bi bi-thermometer-sun warm text-white"
+                className="bi bi-thermometer-sun   warm "
                 viewBox="0 0 16 16"
               >
                 <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V2.5a.5.5 0 0 1 1 0v8.585A1.5 1.5 0 0 1 5 12.5" />
@@ -45,7 +45,7 @@ const HomeMonitorDash = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
                 fill="currentColor"
-                className="bi bi-thermometer-snow cold text-white"
+                className="bi bi-thermometer-snow cold"
                 viewBox="0 0 16 16"
               >
                 <path d="M5 12.5a1.5 1.5 0 1 1-2-1.415V9.5a.5.5 0 0 1 1 0v1.585A1.5 1.5 0 0 1 5 12.5" />
