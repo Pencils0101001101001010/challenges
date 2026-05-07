@@ -12,8 +12,14 @@
   background-color: #1b211a;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  min-width: 400px;
 }
 
 .dropdown-bg :hover {
   background-color: #1b280180;
+}
+
+.dropdownOverFlow {
+  height: 10rem;
+  overflow-y: scroll;
 }

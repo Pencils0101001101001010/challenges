@@ -40,7 +40,7 @@ export const Navbar = () => {
             </svg>
           </span>
         </button>
-        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link
               className="nav-link active text-white"
@@ -56,8 +56,8 @@ export const Navbar = () => {
               About
             </Link>
 
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li className="nav-item dropdown ">
                 <Link
                   className="nav-link dropdown-toggle text-white"
                   href="#"
@@ -67,7 +67,7 @@ export const Navbar = () => {
                 >
                   Dailyui Challenges
                 </Link>
-                <ul className="dropdown-menu dropdown-bg">
+                <ul className="dropdown-menu dropdown-bg dropdownOverFlow">
                   <li>
                     <Link className="dropdown-item text-white" href="/huis">
                       Signup Page 001
