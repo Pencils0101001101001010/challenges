@@ -4,7 +4,7 @@ import { useState } from "react";
 import "./searchbar.css";
 
 const SearchBar = () => {
-  const [inputValue, setInputValue] = useState();
+  const [inputValue, setInputValue] = useState("");
 
   const handleInputValue = (e: any) => {
     setInputValue(e.target.value);
@@ -66,6 +66,25 @@ const SearchBar = () => {
       alert("blah!!!!");
       alert("blah!!!!!");
       alert("blah!!!!!!");
+    } else if (
+      inputValue === "brad" ||
+      inputValue === "Brad" ||
+      inputValue === "Bradly" ||
+      inputValue === "bradly"
+    ) {
+      alert("Helooooooo");
+      alert("Hoe lyk dit?");
+      alert("Geniet al die pop ups... HAHAHA");
+      alert("blah!");
+      alert("blah!!");
+      alert("blah!!!");
+      alert("blah!!!!");
+      alert("blah!!!!!");
+      alert("blah!!!!!!");
+      alert("blah!!!!!!!");
+      alert("blah!!!!!!!!");
+      alert("blah!!!!!!!!!");
+      alert("blah!!!!!!!!!!");
     } else if (inputValue === "") {
       alert("you searched nothing ");
     } else {
