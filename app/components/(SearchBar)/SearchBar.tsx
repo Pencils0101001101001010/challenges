@@ -47,7 +47,7 @@ const SearchBar = () => {
       alert("blah!!!!!");
       alert("blah!!!!!!");
     } else if (inputValue === "mamma" || inputValue === "Mamma") {
-      alert("Maak koffie");
+      alert("Awe Awe");
       alert("lief vir mamma");
       alert("Geniet al die pop ups... HAHAHA");
       alert("blah!");
