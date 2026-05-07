@@ -69,8 +69,8 @@ const SearchBar = () => {
     } else if (
       inputValue === "brad" ||
       inputValue === "Brad" ||
-      inputValue === "Bradly" ||
-      inputValue === "bradly"
+      inputValue === "Bradley" ||
+      inputValue === "bradley"
     ) {
       alert("Helooooooo");
       alert("Hoe lyk dit?");
