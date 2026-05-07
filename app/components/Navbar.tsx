@@ -157,7 +157,7 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <Link className="dropdown-item text-white" href="/switch">
-                      Swith 015
+                      Moon And Sun button 015
                     </Link>
                   </li>
                   <li>
