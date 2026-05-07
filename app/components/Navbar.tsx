@@ -199,6 +199,14 @@ export const Navbar = () => {
                       Home monitor Dash 021
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/searchbar"
+                    >
+                      Search bar 022
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

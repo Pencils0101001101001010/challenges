@@ -1,0 +1,54 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../../assets/img/desktopBg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.searchStyle {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 8px;
+  border: none;
+  z-index: 10;
+  background-color: black;
+  color: white;
+}
+
+.btnStyle {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  padding: 8px;
+  background: #052df5;
+  background: radial-gradient(
+    circle,
+    rgba(5, 45, 245, 1) 0%,
+    rgba(252, 70, 194, 1) 100%
+  );
+  z-index: 10;
+  color: white;
+}
+
+.btnStyle:hover {
+  background: #a16ffc;
+  background: radial-gradient(
+    circle,
+    rgb(132, 71, 246) 0%,
+    rgb(39, 138, 251) 100%
+  );
+}
+
+.boxShadow {
+  box-shadow: rgba(4, 4, 4, 0.96) 0px 25px 20px -12px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+input:focus {
+  outline: none;
+}
