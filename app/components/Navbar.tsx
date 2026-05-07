@@ -191,6 +191,14 @@ export const Navbar = () => {
                       Location App 020
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/homeMonitorDash"
+                    >
+                      Home monitor Dash 021
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

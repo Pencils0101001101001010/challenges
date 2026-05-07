@@ -1,0 +1,163 @@
+.MainContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  padding: 5rem;
+  height: 100vh;
+  border-radius: 10px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/img/winners.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* big temp container */
+.div3BodyFeature {
+  grid-column: span 2;
+  grid-row: span 4;
+  border-radius: 10px;
+  justify-items: center;
+  margin: 1rem;
+  background-color: #edf3ec30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
+  align-content: center;
+  border: rgba(255, 255, 255, 0.481) solid 1px;
+}
+/* Grid iside feature section */
+.FeatureBody {
+  display: grid;
+  height: 80%;
+  width: 80%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 40px 40px 40px 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.ConsumptionTitle {
+  grid-column: span 2;
+}
+
+.degreeText {
+  font-size: 5rem;
+}
+
+.Fbody1 {
+  grid-column: span 2;
+}
+
+.warm:hover {
+  color: tomato;
+}
+
+.cold:hover {
+  color: blue;
+}
+
+/* Rest of the containers  */
+.div3Body {
+  grid-row: span 2;
+  position: relative;
+  margin: 1rem;
+  border-radius: 10px;
+  justify-items: center;
+  align-content: center;
+  background-color: #e9f2e730;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
+  border: rgba(255, 255, 255, 0.481) solid 1px;
+}
+
+.div3BodyFeature:hover,
+.div3Body:hover {
+  box-shadow:
+    rgba(4, 4, 7, 0.25) 0px 30px 60px -12px inset,
+    rgba(8, 3, 3, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btnStyle {
+  background: none;
+  border: none;
+}
+
+.imgStyle {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.imgText {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+  background-color: #0d120c63;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 3px;
+  border-radius: 8px;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 600px) {
+  .MainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    height: auto;
+    padding: 1rem;
+  }
+
+  .div3BodyFeature {
+    background-color: #1b211a30;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
+    grid-column: auto; /* Forces it to stay in 1 column */
+    grid-row: span 4;
+    border-radius: 10px;
+    justify-items: center;
+    margin-top: 4rem;
+    align-content: center;
+  }
+
+  .FeatureBody {
+    display: grid;
+    height: 80%;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .degreeText {
+    font-size: 5rem;
+  }
+  /* 
+  .Fbody1 {
+    grid-column: span 2;
+  } */
+
+  .div3Body {
+    /* grid-row: span 2; Stops it from spanning 2 rows */
+    margin: 1rem 0;
+    border-radius: 10px;
+    justify-items: center;
+    align-content: center;
+    background-color: #1b211a30;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
+  }
+  .div3BodyFeature:hover,
+  .div3Body:hover {
+    box-shadow:
+      rgba(4, 4, 7, 0.25) 0px 30px 60px -12px inset,
+      rgba(8, 3, 3, 0.3) 0px 18px 36px -18px inset;
+  }
+}
