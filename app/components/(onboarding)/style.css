@@ -1,0 +1,33 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../../assets/img/boarding1.jpg");
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+
+.btnStyle {
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 0.5rem;
+  margin-top: 2.5rem;
+  font-size: x-large;
+  color: black;
+  text-decoration: none;
+  border-radius: 15%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btnStyle:hover {
+  background-color: rgba(128, 128, 128, 0.596);
+}

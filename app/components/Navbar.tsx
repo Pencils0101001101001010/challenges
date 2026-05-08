@@ -207,6 +207,14 @@ export const Navbar = () => {
                       Search bar 022
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/onboardingPage"
+                    >
+                      Greeting Screens 023
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
