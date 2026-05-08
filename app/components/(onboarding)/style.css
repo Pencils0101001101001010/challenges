@@ -26,6 +26,7 @@
   text-decoration: none;
   border-radius: 15%;
   font-family: "Courier New", Courier, monospace;
+  margin-bottom: 5px;
 }
 
 .btnStyle:hover {
