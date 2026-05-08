@@ -212,7 +212,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/onboardingPage"
                     >
-                      Greeting Screens 023
+                      Greeting 023
                     </Link>
                   </li>
                 </ul>
