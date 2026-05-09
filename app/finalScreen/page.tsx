@@ -7,7 +7,7 @@ function page() {
       <h1 className="heading">We're rooting for you.</h1>
       <p className="heading">Your green thumb starts here.</p>
       <Link href="/" className="btnStyle">
-        Lets Go
+        Lets Grow
       </Link>
     </div>
   );
