@@ -215,6 +215,14 @@ export const Navbar = () => {
                       Greeting 023
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/boardingPass"
+                    >
+                      Boarding Pass 024
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
