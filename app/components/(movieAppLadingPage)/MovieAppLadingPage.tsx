@@ -9,7 +9,6 @@ import cinema from "../../../assets/img/cinema.jpg";
 import library from "../../../assets/img/libirary.jpg";
 import movie2 from "../../../assets/img/lilly.jpg";
 import movie3 from "../../../assets/img/soundWaves.png";
-
 import { useState } from "react";
 
 const movies = [

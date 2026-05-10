@@ -4,6 +4,11 @@ import { useState } from "react";
 import CreateYourOwnChart from "../components/(createYourOwnChart)/CreateYourOwnChart";
 import "../styles/createYourOwnChart.css";
 
+export const metadata = {
+  title: "Cool Charts",
+  description: "Create you own charts",
+};
+
 function page() {
   //~ Array to hold all entries
   const [chartData, setChartData] = useState<

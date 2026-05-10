@@ -1,6 +1,11 @@
 import Link from "next/link";
 import "./style.css";
 
+export const metadata = {
+  title: "Final Page",
+  description: "Almost done",
+};
+
 function page() {
   return (
     <div className="mainContainer text-center">

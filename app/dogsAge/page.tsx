@@ -1,6 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import "./style.css";
+
+export const metadata = {
+  title: "How old is my dog",
+  description: "Find out what is you dogs age in human years.",
+};
+
 function page() {
   const [dogAge, setDogsAge] = useState(0);
   const [result, setResult] = useState<number | null>(null);

@@ -5,6 +5,11 @@ import barcode from "../../assets/img/barcode.png";
 import Image from "next/image";
 import { useEffect } from "react";
 
+export const metadata = {
+  title: "BOARDING PASS",
+  description: "My boarding pass.",
+};
+
 function page() {
   useEffect(() => {
     var btn = document.querySelector(".btnStyle") as HTMLButtonElement;
