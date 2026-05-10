@@ -223,6 +223,14 @@ export const Navbar = () => {
                       Boarding Pass 024
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/movieAppLanding"
+                    >
+                      Movie App Landing 025
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

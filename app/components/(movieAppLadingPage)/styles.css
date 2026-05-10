@@ -1,0 +1,149 @@
+.mainGridComponent {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 60px 600px 50px 215px 50px;
+  padding-top: 4rem;
+  height: 150vh;
+  color: white;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: span 2;
+  padding: 1rem;
+}
+
+.bttnStyle {
+  background: none;
+  color: white;
+  border: none;
+}
+
+.imgStyle {
+  height: 50;
+  width: 50;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.heroSection {
+  grid-column: span 2;
+  position: relative;
+}
+
+.heroImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -webkit-mask-image: linear-gradient(to right, black 30%, transparent 100%);
+  mask-image: linear-gradient(to left, black 30%, transparent 100%);
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+
+.movieTitle {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  font-size: 3rem;
+}
+
+.movieDescription {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  width: 500px;
+}
+
+.movieRating {
+  position: absolute;
+  bottom: 1rem;
+  right: 5rem;
+}
+
+.newCategoryTitle {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  align-content: center;
+  font-size: xx-large;
+}
+
+.carouselContainer {
+  grid-column: span 2;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.52) 30%,
+    transparent 100%
+  );
+
+  -webkit-mask-image: linear-gradient(to right, black 30%, transparent 100%);
+  /* For Firefox */
+  scrollbar-width: none;
+  /* For Internet Explorer/Edge */
+  -ms-overflow-style: none;
+}
+
+.movieCarouselCard {
+  flex-shrink: 0;
+  position: relative;
+  height: 200px;
+  width: 300px;
+  margin: 0.5rem;
+  background: none;
+  border: none;
+}
+
+.movieCarouselCard:hover {
+  box-shadow:
+    rgba(242, 242, 246, 0.25) 0px 30px 60px -12px inset,
+    rgba(254, 254, 254, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 15%;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15%;
+}
+
+.carouselImageTitle {
+  position: absolute;
+  bottom: 1;
+  font-size: large;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.561);
+  padding: 5px;
+  left: 2rem;
+  border-radius: 15%;
+}
+
+@media (max-width: 600px) {
+  .movieTitle {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    font-size: 3rem;
+  }
+
+  .movieDescription {
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+    width: 300px;
+  }
+
+  .movieRating {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
