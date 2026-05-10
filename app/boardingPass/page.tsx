@@ -1,8 +1,21 @@
+"use client";
+
 import "./styles.css";
 import barcode from "../../assets/img/barcode.png";
 import Image from "next/image";
+import { useEffect } from "react";
 
 function page() {
+  useEffect(() => {
+    var btn = document.querySelector(".btnStyle") as HTMLButtonElement;
+
+    btn.addEventListener("click", () => {
+      var audio = new Audio("/audio/dog-barking.mp3");
+
+      audio.play();
+    });
+  }, []);
+
   return (
     <div className="mainContainer">
       <div className="boardingPassBox">

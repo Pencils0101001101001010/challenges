@@ -45,9 +45,9 @@ export const Navbar = () => {
             <Link
               className="nav-link active text-white"
               aria-current="page"
-              href="./huis"
+              href="./dogsAge"
             >
-              Home
+              My dogs age
             </Link>
             <Link className="nav-link text-white" href="/features">
               Features

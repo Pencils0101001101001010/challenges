@@ -1,8 +1,18 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./style.css";
 function page() {
   const [dogAge, setDogsAge] = useState(0);
+
+  useEffect(() => {
+    var btn = document.querySelector(".buttonStyle") as HTMLButtonElement;
+
+    btn?.addEventListener("click", () => {
+      var audio = new Audio("/audio/dog-barking.mp3");
+
+      audio.play();
+    });
+  }, []);
 
   // formula (dogAge - 2) x 4 + 21
   const calculateDogAge = (e: React.SubmitEvent<HTMLFormElement>) => {
@@ -22,7 +32,9 @@ function page() {
             <br />
             <input onChange={(e) => setDogsAge(Number(e.target.value))} />
             <br />
-            <button type="submit">Calculate</button>
+            <button className="buttonStyle" type="submit">
+              Calculate
+            </button>
           </form>
           <br />
           {`Your dog is ${dogAge} human years old.`}
