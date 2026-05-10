@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "./style.css";
 function page() {
   const [dogAge, setDogsAge] = useState(0);
+  const [result, setResult] = useState<number | null>(null);
 
   useEffect(() => {
     var btn = document.querySelector(".buttonStyle") as HTMLButtonElement;
@@ -18,27 +19,40 @@ function page() {
   const calculateDogAge = (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
     var dogsAge = (dogAge - 2) * 4 + 21;
-    setDogsAge(dogsAge);
+
+    setResult(dogsAge);
+  };
+
+  const clear = () => {
+    setResult(null);
+    setDogsAge(0);
   };
 
   return (
     <div className="mainContainer ">
-      <div className="row">
-        <div className="col">
-          <form onSubmit={calculateDogAge}>
+      <div>
+        <button className="buttonStyle" onClick={clear}>
+          X
+        </button>
+        <form onSubmit={calculateDogAge}>
+          <div className="boxStyle">
             <label htmlFor="dogs age">
               How old is your dog in human years?
             </label>
-            <br />
-            <input onChange={(e) => setDogsAge(Number(e.target.value))} />
-            <br />
+
+            <div>{result !== null && <p className="result">{result}</p>}</div>
+
+            <input
+              placeholder="Enter your dogs age"
+              className="inputStyle"
+              onChange={(e) => setDogsAge(Number(e.target.value))}
+            />
+
             <button className="buttonStyle" type="submit">
               Calculate
             </button>
-          </form>
-          <br />
-          {`Your dog is ${dogAge} human years old.`}
-        </div>
+          </div>
+        </form>
       </div>
     </div>
   );
