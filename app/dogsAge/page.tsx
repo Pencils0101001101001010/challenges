@@ -6,7 +6,7 @@ function page() {
   const [result, setResult] = useState<number | null>(null);
 
   useEffect(() => {
-    var btn = document.querySelector(".buttonStyle") as HTMLButtonElement;
+    var btn = document.querySelectorAll(".buttonStyle")[1] as HTMLButtonElement;
 
     btn?.addEventListener("click", () => {
       var audio = new Audio("/audio/dog-barking.mp3");
