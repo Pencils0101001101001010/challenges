@@ -1,6 +1,127 @@
 .mainContainer {
   display: flex;
-  justify-self: center;
+  position: relative;
+  justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("../../assets/img/marsplanet.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+}
+
+.headerText {
+  position: absolute;
+  top: 10rem;
+  left: center;
+  color: black;
+
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.CardGrids {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: 500px;
+  gap: 1.5rem;
+  margin-left: 1rem;
+}
+
+.cardStyle {
+  display: grid;
+  position: relative;
+  grid-template-columns: auto;
+  grid-template-rows: 200px 60px 23px 25px 150px;
+  justify-content: center;
+  background: #f20f0f;
+  background: linear-gradient(
+    6deg,
+    rgba(242, 15, 15, 1) 0%,
+    rgba(115, 37, 7, 1) 35%,
+    rgba(0, 11, 13, 1) 100%
+  );
+  /* background-color: #f7f7f730;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);*/
+  border-radius: 50px;
+  box-shadow:
+    rgba(236, 4, 4, 0.39) 0px 30px 60px -12px,
+    rgba(241, 128, 75, 0.381) 0px 18px 36px -18px;
+
+  color: white;
+}
+
+.cardStyle:hover {
+  box-shadow:
+    rgba(252, 3, 3, 0.99) 0px 30px 60px -12px,
+    rgb(253, 81, 2) 0px 18px 36px -18px;
+}
+
+.imageStyle {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.cardTextHeader {
+  font-size: 2rem;
+  align-self: center;
+}
+
+.cardText {
+  padding-left: 2rem;
+  font-weight: 200;
+}
+
+.listStyle {
+  padding-left: 3rem;
+  font-weight: 200;
+}
+
+.bttonStyle {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: none;
+}
+
+.bttonStyle:hover {
+  background: linear-gradient(
+    6deg,
+    rgba(242, 15, 15, 1) 0%,
+    rgba(115, 37, 7, 1) 35%,
+    rgb(244, 128, 82) 100%
+  );
+  color: white;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 7rem;
+  }
+
+  .CardGrids {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+  }
+
+  .headerText {
+    position: absolute;
+    top: 4rem;
+    left: center;
+    color: rgba(242, 15, 15, 1);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+  }
 }
