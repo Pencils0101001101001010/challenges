@@ -231,6 +231,14 @@ export const Navbar = () => {
                       Movie App Landing 025
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/subscribePage"
+                    >
+                      Subscription Page 026
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
