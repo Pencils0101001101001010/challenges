@@ -1,11 +1,6 @@
 import Link from "next/link";
 import "./style.css";
 
-export const metadata = {
-  title: "User profile | Home",
-  description: "Confirm and edit your profile",
-};
-
 function page() {
   return (
     <div className="mainContainer text-center">

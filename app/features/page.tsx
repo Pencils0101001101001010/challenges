@@ -1,11 +1,6 @@
 import React from "react";
 import "./style.css";
 
-export const metadata = {
-  title: "Feature Page",
-  description: "Hello ",
-};
-
 const page = () => {
   return (
     <div className="flex-container text-center">
