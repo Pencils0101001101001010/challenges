@@ -3,7 +3,6 @@
   grid-template-columns: auto auto;
   grid-template-rows: 60px 600px 50px 215px 50px;
   padding-top: 4rem;
-  height: 150vh;
   color: white;
 }
 
@@ -80,11 +79,11 @@
 
   mask-image: linear-gradient(
     to left,
-    rgba(0, 0, 0, 0.52) 30%,
+    rgba(0, 0, 0, 0.52) 20%,
     transparent 100%
   );
 
-  -webkit-mask-image: linear-gradient(to right, black 30%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
   /* For Firefox */
   scrollbar-width: none;
   /* For Internet Explorer/Edge */

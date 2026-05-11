@@ -19,6 +19,8 @@ const movies = [
       "Friends with Blades is a gritty, stylized neo-noir action film set in a rain-soaked, near-future metropolis. The story follows two former rivals from a disbanded elite samurai unit who are forced to reunite",
     image: samuri,
     rating: 4.5,
+    category: "action",
+    type: "movie",
   },
   {
     id: 2,
@@ -27,6 +29,8 @@ const movies = [
       "Deeper in the blue we discover the true meaning of blue and her heart. The amazing story of the biggest mamal and her journey",
     image: whale,
     rating: 5,
+    category: "documentary",
+    type: "series",
   },
   {
     id: 3,
@@ -35,6 +39,8 @@ const movies = [
       "A breathtaking wildlife documentary that follows the high-stakes journey of a lioness and her lone survivor cub. Set in the unforgiving expanse of the Serengeti, it is a raw, intimate look at the bond required to survive when the odds are stacked against the pride.",
     image: lion,
     rating: 5,
+    category: "documentary",
+    type: "series",
   },
   {
     id: 4,
@@ -43,6 +49,8 @@ const movies = [
       "A psychological horror-thriller that turns a romantic night out into a claustrophobic nightmare. It plays on the primal fear of being watched in a place that should be empty, utilizing the eerie silence of a hollowed-out theater to build unbearable tension.",
     image: cinema,
     rating: 3.8,
+    category: "horror",
+    type: "movie",
   },
   {
     id: 5,
@@ -51,6 +59,8 @@ const movies = [
       "Nostalgic, bittersweet documentary that explores the physical era of home video. It chronicles the rise and fall of the neighborhood video store—a place where movie-watching was a social ritual rather than an algorithm.",
     image: library,
     rating: 5,
+    category: "documentary",
+    type: "series",
   },
   {
     id: 6,
@@ -59,6 +69,8 @@ const movies = [
       "Nostalgic, bittersweet documentary that explores the physical era of home video. It chronicles the rise and fall of the neighborhood video store—a place where movie-watching was a social ritual rather than an algorithm.",
     image: movie2,
     rating: 5,
+    category: "drama",
+    type: "movie",
   },
   {
     id: 7,
@@ -67,6 +79,8 @@ const movies = [
       "Looking into the negative effect of creating digital music and ignoring timber and steel",
     image: movie3,
     rating: 5,
+    category: "documentary",
+    type: "series",
   },
 ];
 
