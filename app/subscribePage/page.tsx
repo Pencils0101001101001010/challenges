@@ -1,10 +1,33 @@
+"use client";
 import Image from "next/image";
 import "./style.css";
 import mars1 from "../../assets/img/mars1.jpg";
 import mars4 from "../../assets/img/mars4.jpg";
 import mars3 from "../../assets/img/mars3.jpg";
+import { useEffect } from "react";
 
 function page() {
+  useEffect(() => {
+    var numButtons = document.querySelectorAll(".bttonStyle").length;
+
+    for (var i = 0; i < numButtons; ++i) {
+      document
+        .querySelectorAll(".bttonStyle")
+        [i].addEventListener("click", function () {
+          if (i === 0) {
+            var soundOne = new Audio("/audio/fart.mp3");
+            soundOne.play();
+          } else if (i === 1) {
+            var soundTwo = new Audio("/audio/horse.mp3");
+            soundTwo.play();
+          } else if (i === 2) {
+            var soundThree = new Audio("/audio/wow.mp3");
+            soundThree.play();
+          }
+        });
+    }
+  });
+
   return (
     <div className="mainContainer">
       <p className="headerText">Three paths to the Red Planet.</p>
