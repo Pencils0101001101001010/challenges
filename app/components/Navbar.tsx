@@ -239,6 +239,22 @@ export const Navbar = () => {
                       Subscription Page 026
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/subscribePage"
+                    >
+                      Dropdown 027
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/contactUs"
+                    >
+                      Contact us 028
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
