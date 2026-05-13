@@ -7,26 +7,33 @@ import mars3 from "../../assets/img/mars3.jpg";
 import { useEffect } from "react";
 
 function page() {
-  useEffect(() => {
-    var numButtons = document.querySelectorAll(".bttonStyle").length;
+  const sounds = ["/audio/fart.mp3", "/audio/horse.mp3", "/audio/wow.mp3"];
 
-    for (var i = 0; i < numButtons; ++i) {
-      document
-        .querySelectorAll(".bttonStyle")
-        [i].addEventListener("click", function () {
-          if (i === 0) {
-            var soundOne = new Audio("/audio/fart.mp3");
-            soundOne.play();
-          } else if (i === 1) {
-            var soundTwo = new Audio("/audio/horse.mp3");
-            soundTwo.play();
-          } else if (i === 2) {
-            var soundThree = new Audio("/audio/wow.mp3");
-            soundThree.play();
-          }
-        });
-    }
-  });
+  const playSound = (index: number) => {
+    const audio = new Audio(sounds[index]);
+    audio.play().catch((err) => alert("Audio blocked by browser."));
+  };
+
+  // useEffect(() => {
+  //   let numButtons = document.querySelectorAll(".bttonStyle").length;
+
+  //   for (let i = 0; i < numButtons; ++i) {
+  //     document
+  //       .querySelectorAll(".bttonStyle")
+  //       [i].addEventListener("click", function () {
+  //         if (i === 0) {
+  //           let soundOne = new Audio("/audio/fart.mp3");
+  //           soundOne.play();
+  //         } else if (i === 1) {
+  //           let soundTwo = new Audio("/audio/horse.mp3");
+  //           soundTwo.play();
+  //         } else if (i === 2) {
+  //           let soundThree = new Audio("/audio/wow.mp3");
+  //           soundThree.play();
+  //         }
+  //       });
+  //   }
+  // }, []);
 
   return (
     <div className="mainContainer">
@@ -44,7 +51,9 @@ function page() {
             <li>Basic hydroponic access</li>
             <li>10kg personal cargo</li>
           </ul>
-          <button className="bttonStyle">Take Flight</button>
+          <button onClick={() => playSound(0)} className="bttonStyle">
+            Subscribe
+          </button>
         </div>
         <div className="cardStyle">
           <Image src={mars4} alt="image" className="imageStyle" />
@@ -59,7 +68,9 @@ function page() {
             <li>Exoskeleton usage rights</li>
             <li>Includes 1 Rover rental</li>
           </ul>
-          <button className="bttonStyle">Claim Command</button>
+          <button onClick={() => playSound(1)} className="bttonStyle">
+            Subscribe
+          </button>
         </div>
         <div className="cardStyle">
           <Image src={mars3} alt="image" className="imageStyle" />
@@ -74,7 +85,9 @@ function page() {
             <li>Quantum-link video calls</li>
             <li>Governing Council voting seat</li>
           </ul>
-          <button className="bttonStyle">Infinity & Beyond</button>
+          <button onClick={() => playSound(2)} className="bttonStyle">
+            Subscribe
+          </button>
         </div>
       </div>
     </div>
