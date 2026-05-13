@@ -14,27 +14,6 @@ function page() {
     audio.play().catch((err) => alert("Audio blocked by browser."));
   };
 
-  // useEffect(() => {
-  //   let numButtons = document.querySelectorAll(".bttonStyle").length;
-
-  //   for (let i = 0; i < numButtons; ++i) {
-  //     document
-  //       .querySelectorAll(".bttonStyle")
-  //       [i].addEventListener("click", function () {
-  //         if (i === 0) {
-  //           let soundOne = new Audio("/audio/fart.mp3");
-  //           soundOne.play();
-  //         } else if (i === 1) {
-  //           let soundTwo = new Audio("/audio/horse.mp3");
-  //           soundTwo.play();
-  //         } else if (i === 2) {
-  //           let soundThree = new Audio("/audio/wow.mp3");
-  //           soundThree.play();
-  //         }
-  //       });
-  //   }
-  // }, []);
-
   return (
     <div className="mainContainer">
       <p className="headerText">Three paths to the Red Planet.</p>
