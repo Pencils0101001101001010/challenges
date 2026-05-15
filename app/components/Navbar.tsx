@@ -263,6 +263,14 @@ export const Navbar = () => {
                       Map 029
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="pricingPage"
+                    >
+                      Pricing 030
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
