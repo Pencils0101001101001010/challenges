@@ -255,6 +255,14 @@ export const Navbar = () => {
                       Contact us 028
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="https://imlocal.vercel.app/"
+                    >
+                      Map 029
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
