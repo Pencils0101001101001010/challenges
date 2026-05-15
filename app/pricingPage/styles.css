@@ -6,6 +6,7 @@
   height: 100vh;
   justify-content: center;
   align-content: center;
+  background-color: rgba(127, 255, 212, 0.498);
 }
 
 .cardContainer1 {
@@ -83,18 +84,20 @@
 }
 
 .cardHeader {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   padding: 5px;
   border-radius: 15px;
   /* background-color: rgba(224, 232, 229, 0.551); */
   border: rgb(169, 166, 166) solid 1px;
   justify-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .cardPricingText {
   font-weight: 300;
   font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .cardDecriptionText {
