@@ -1,0 +1,128 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem;
+  height: 100vh;
+  background-color: black;
+  color: orangered;
+}
+
+.leftGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px repeat(3, 80px);
+  margin: 4rem;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+/* ------------------progress bar----------------- */
+.loading-container {
+  width: 400px; /* Adjust size to fit your mockup layout */
+  font-family: Arial, sans-serif;
+}
+
+.loading-label {
+  display: flex;
+  justify-content: space-between; /* Pushes name to left, percent to right */
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: orangered;
+}
+
+.progress-track {
+  width: 100%;
+  background-color: rgb(55, 54, 54);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 25%;
+  background-color: orangered; /* Blue accent color */
+  transition: width 0.2s ease;
+}
+
+.progress-fill2 {
+  height: 100%;
+  width: 60%;
+  background-color: orangered; /* Blue accent color */
+  transition: width 0.2s ease;
+}
+
+.progress-fill3 {
+  height: 100%;
+  width: 80%;
+  background-color: orangered; /* Blue accent color */
+  transition: width 0.2s ease;
+}
+.progress-fill4 {
+  height: 100%;
+  width: 100%;
+  background-color: orangered; /* Blue accent color */
+  transition: width 0.2s ease;
+}
+
+.rightGrid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 150px) 80px;
+  margin: 4rem;
+}
+.textStyle {
+  text-align: center;
+  font-size: small;
+}
+
+.uploudImageStl {
+  grid-row: span 2;
+  border: orangered solid 1px;
+  padding: 2rem;
+  align-content: center;
+  border-radius: 15px;
+}
+
+.buttonStyles {
+  text-align: center;
+  padding: 5px;
+  background: none;
+  color: orangered;
+  border: orangered solid 1px;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.buttonStyles:hover {
+  background-color: orangered;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+    height: 100vh;
+    background-color: black;
+    color: orangered;
+  }
+
+  .leftGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    margin: 1rem;
+  }
+
+  .rightGrid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 1rem;
+  }
+}

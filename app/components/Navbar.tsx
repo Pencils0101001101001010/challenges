@@ -271,6 +271,14 @@ export const Navbar = () => {
                       Pricing 030
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="videoUploader"
+                    >
+                      Uploader ui 031
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
