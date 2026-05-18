@@ -136,7 +136,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/socialShareBtn"
                     >
-                      Social Share btn 10,12&13
+                      Social Share btn 10,12,13 & 33
                     </Link>
                   </li>
                   <li>
