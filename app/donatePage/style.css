@@ -1,0 +1,143 @@
+.donatePageContainer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-content: center;
+  height: 100vh;
+  padding: 10rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lftContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  height: auto;
+  padding: 1rem;
+  position: relative;
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.roundImageRight {
+  background-image: url("../../assets/img/dontePage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  right: 10rem;
+  bottom: 10rem;
+  z-index: 1;
+}
+.roundImageRight1 {
+  background-image: url("../../assets/img/donate3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  right: 10rem;
+  bottom: 19rem;
+  z-index: 1;
+}
+.roundImageRight2 {
+  background-image: url("../../assets/img/donate4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  right: 10rem;
+  bottom: 28rem;
+  z-index: 1;
+}
+
+.headerText {
+  font-size: 2.5rem;
+  font-weight: 600;
+  z-index: 9;
+}
+
+.imageSide {
+  justify-self: center;
+  align-content: center;
+  width: 100%;
+  z-index: 9;
+  background-image: url("../../assets/img/donatePage2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  -webkit-mask-image: linear-gradient(to top, black 80%, transparent 100%);
+  mask-image: linear-gradient(to right, black 80%, transparent 100%);
+}
+
+.donateButton {
+  justify-self: center;
+  background: none;
+  width: 100px;
+  border-radius: 8px;
+}
+.leftDonateButton1 {
+  justify-self: center;
+  background-color: rgba(0, 128, 0, 0.516);
+  width: 100px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+
+  width: 600px;
+}
+
+.goalAmount {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.recievedAmount {
+  font-size: 2rem;
+  font-weight: 600;
+  color: green;
+}
+
+.loading-container {
+  width: 600px; /* Adjust size to fit your mockup layout */
+  font-family: Arial, sans-serif;
+}
+
+.loading-label {
+  display: flex;
+  justify-content: space-between; /* Pushes name to left, percent to right */
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: rgb(5, 1, 0);
+}
+
+.progress-track {
+  width: 100%;
+  background-color: rgba(251, 3, 3, 0.179);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 70%;
+  background-color: green;
+  transition: width 0.2s ease;
+}

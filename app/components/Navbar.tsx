@@ -279,6 +279,14 @@ export const Navbar = () => {
                       Uploader ui 031
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="donatePage"
+                    >
+                      Donate Page ui 032
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
