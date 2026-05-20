@@ -287,6 +287,14 @@ export const Navbar = () => {
                       Donate Page ui 032
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="carInterface"
+                    >
+                      Car interface 033
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
