@@ -1,8 +1,93 @@
+.mainCarInterfaceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 21, 28);
+}
+
 .carInterfaceContainer {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 400px 400px 300px;
+  grid-template-rows: repeat(10, 75px);
   justify-items: center;
   align-content: center;
   height: 100vh;
+}
+
+.glow {
+  color: rgb(122, 85, 177);
+  text-shadow: 0 0 10px rgb(123, 46, 224); /* horizontal, vertical, blur, color */
+}
+
+.time {
+  font-size: medium;
+  font-weight: 200;
+}
+
+.carInterfaceNavbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  grid-column: span 3;
+  background-color: rgb(19, 21, 28);
+  color: rgb(122, 85, 177);
+}
+
+.carSensorSection {
+  grid-row: span 9;
+  background-image: url("../../assets/img/carSensor.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.crMapsSection {
+  grid-column: span 2;
+  grid-row: span 8;
+  width: 100%;
+  background-image: url("../../assets/img/newcarmap.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cAudioSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-column: span 2;
+  background-color: rgb(19, 21, 28);
+  width: 100%;
+  color: plum;
+}
+
+.loading-container {
+  width: 200px; /* Adjust size to fit your mockup layout */
+  font-family: Arial, sans-serif;
+}
+
+.loading-label {
+  display: flex;
+  justify-content: space-between; /* Pushes name to left, percent to right */
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: orangered;
+}
+
+.progress-track {
+  width: 100%;
+  background-color: rgb(55, 54, 54);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 38%;
+  background-color: rgb(122, 85, 177);
+  transition: width 0.2s ease;
 }
