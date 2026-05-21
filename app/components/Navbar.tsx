@@ -294,6 +294,11 @@ export const Navbar = () => {
                     >
                       Car interface 034
                     </Link>
+                  </li>{" "}
+                  <li>
+                    <Link className="dropdown-item text-white" href="blogPost">
+                      Blog 035
+                    </Link>
                   </li>
                 </ul>
               </li>
