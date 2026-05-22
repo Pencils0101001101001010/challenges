@@ -300,6 +300,14 @@ export const Navbar = () => {
                       Blog 035
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="promotionPage"
+                    >
+                      Promo 036
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

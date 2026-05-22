@@ -1,0 +1,79 @@
+.promoPagecontainer {
+  justify-content: center;
+  align-content: center;
+  background-image: url("../../assets/img/promo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 5rem;
+}
+
+.proBox {
+  justify-items: center;
+  border: white solid 2px;
+  border-radius: 15px;
+  height: 600px;
+  width: 500px;
+  padding: 2rem;
+  background-color: #0c000c30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(30px);
+  color: white;
+  position: relative;
+}
+
+.prmtitle {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.pBodyText {
+  justify-items: center;
+  align-content: center;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.shopName {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .promoPagecontainer {
+    justify-content: center;
+    align-content: center;
+    background-image: url("../../assets/img/promo.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    height: 100vh;
+  }
+
+  .proBox {
+    justify-items: center;
+    border: white solid 2px;
+    border-radius: 15px;
+    height: 600px;
+    width: 400px;
+    padding: 2rem;
+    background-color: #0c000c30;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(30px);
+    color: white;
+    position: relative;
+  }
+
+  .prmtitle {
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+  }
+}
