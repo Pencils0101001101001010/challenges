@@ -308,6 +308,16 @@ export const Navbar = () => {
                       Promo 036
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="weather">
+                      Weather 037
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="calendar">
+                      Calendar 038
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
