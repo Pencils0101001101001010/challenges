@@ -2,5 +2,102 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 9rem;
+}
+
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: 400px 600px;
+  grid-template-rows: 500px;
+  box-shadow:
+    rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background: rgba(93, 107, 56, 0.414);
+  background: linear-gradient(
+    0deg,
+    rgba(133, 125, 88, 0.41) 0%,
+    rgba(237, 235, 187, 0.508) 100%
+  );
+}
+
+.aroundImage {
+  align-content: center;
+  border: rgb(84, 112, 66) solid 5px;
+  border-radius: 52% 48% 89% 18% / 15% 21% 79% 88%;
+  margin: 2rem;
+}
+
+.anotherBorder {
+  border: rgb(84, 112, 66) solid 1px;
+  border-radius: 80% 20% 11% 89% / 55% 92% 8% 45%;
+  padding: 1rem;
+}
+
+.testImg {
+  background-image: url("../../assets/img/SifiAndBieny.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  border-radius: 65% 35% 11% 89% / 66% 90% 10% 34%;
+  height: 400px;
+}
+
+/* Right and bottom side  */
+
+.teMonialTextGrid {
+  position: relative;
+  padding: 4rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.quSizes {
+  font-size: 5rem;
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  color: rgba(0, 0, 0, 0.375);
+}
+
+.bodyText {
+  font-weight: 300;
+  font-size: large;
+}
+
+.signOff {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 80%;
+  bottom: 2rem;
+  font-size: larger;
+}
+
+.bttStl {
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow:
+    rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+@media (max-width: 600px) {
+  .testimonialGrid {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 500px;
+    padding-top: 4rem;
+  }
+
+  .signOff {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 70%;
+    bottom: 1rem;
+    font-size: larger;
+  }
 }
