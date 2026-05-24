@@ -318,6 +318,14 @@ export const Navbar = () => {
                       Calendar 038
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="testimonial"
+                    >
+                      Testimonial 039
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
