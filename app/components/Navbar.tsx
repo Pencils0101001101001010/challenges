@@ -69,16 +69,6 @@ export const Navbar = () => {
                 </Link>
                 <ul className="dropdown-menu dropdown-bg dropdownOverFlow">
                   <li>
-                    <Link className="dropdown-item text-white" href="/huis">
-                      Signup Page 001
-                    </Link>
-                  </li>{" "}
-                  <li>
-                    <Link className="dropdown-item text-white" href="about">
-                      Checkout Page 002
-                    </Link>
-                  </li>{" "}
-                  <li>
                     <Link className="dropdown-item text-white" href="/">
                       Landing Page 003
                     </Link>
@@ -104,7 +94,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/user_profile"
                     >
-                      User Profile 006
+                      Profile 006
                     </Link>
                   </li>
                   <li>
@@ -112,7 +102,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/userSettings"
                     >
-                      User Setting 007
+                      Setting 007
                     </Link>
                   </li>
                   <li>
@@ -120,7 +110,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/not-found"
                     >
-                      404 page 008
+                      404 008
                     </Link>
                   </li>
                   <li>
@@ -128,7 +118,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/music-player-layout"
                     >
-                      Music Player 009
+                      MPlayer 009
                     </Link>
                   </li>
                   <li>
@@ -136,7 +126,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/socialShareBtn"
                     >
-                      Social Share btn 10,12,13 & 33
+                      Social Share 10,12,13 & 33
                     </Link>
                   </li>
                   <li>
@@ -144,7 +134,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/flashMessage"
                     >
-                      Flash Messages 011
+                      Popup 011
                     </Link>
                   </li>
                   <li>
@@ -152,17 +142,17 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/countDown"
                     >
-                      Count Down 014
+                      StopWatch 014
                     </Link>
                   </li>
                   <li>
                     <Link className="dropdown-item text-white" href="/switch">
-                      Moon And Sun button 015
+                      L/D Btn 015
                     </Link>
                   </li>
                   <li>
                     <Link className="dropdown-item text-white" href="/pop-over">
-                      Pop Over 016
+                      PopOver 016
                     </Link>
                   </li>
                   <li>
@@ -188,7 +178,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="https://imlocal.vercel.app/"
                     >
-                      Location App 020
+                      Location 020
                     </Link>
                   </li>
                   <li>
@@ -196,7 +186,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/homeMonitorDash"
                     >
-                      Home monitor Dash 021
+                      Dashboard 021
                     </Link>
                   </li>
                   <li>
@@ -204,7 +194,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/searchbar"
                     >
-                      Search bar 022
+                      Searchbar 022
                     </Link>
                   </li>
                   <li>
@@ -220,7 +210,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/boardingPass"
                     >
-                      Boarding Pass 024
+                      Boarding 024
                     </Link>
                   </li>
                   <li>
@@ -228,7 +218,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/movieAppLanding"
                     >
-                      Movie App Landing 025
+                      Movie App 025
                     </Link>
                   </li>
                   <li>
@@ -236,7 +226,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/subscribePage"
                     >
-                      Subscription Page 026
+                      Subscription 026
                     </Link>
                   </li>
                   <li>
@@ -284,7 +274,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="donatePage"
                     >
-                      Donate Page ui 032
+                      Donate ui 032
                     </Link>
                   </li>
                   <li>
@@ -324,6 +314,11 @@ export const Navbar = () => {
                       href="testimonial"
                     >
                       Testimonial 039
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="recipe">
+                      Recipe 040
                     </Link>
                   </li>
                 </ul>
