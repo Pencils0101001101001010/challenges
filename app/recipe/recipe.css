@@ -1,6 +1,83 @@
 .rCon {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  max-height: 90vh;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 4.5rem;
+}
+
+.titleDescription {
+  background-image: url("../../assets/img/marryMeChicken.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  align-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.mainHeader {
+  background-color: rgba(0, 0, 0, 0.41);
+  color: aliceblue;
+  height: 4rem;
+  align-content: center;
+  border-bottom: 2px solid aliceblue;
+  border-top: 2px solid aliceblue;
+  font-weight: 600;
+}
+
+.recipeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  min-height: 60vh;
+}
+.subHeaders {
+  font-size: 1.5rem;
+  border-bottom: black solid 1px;
+}
+
+.ingredients {
+  background-color: bisque;
+  padding: 1rem;
+}
+
+.stepByStep {
+  background-color: wheat;
+  padding: 1rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /* For Internet Explorer/Edge */
+  -ms-overflow-style: none;
+}
+
+.stepByStep li {
+  padding-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .rCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 150vh;
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .recipeContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
