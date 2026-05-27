@@ -321,6 +321,14 @@ export const Navbar = () => {
                       Recipe 040
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="exerciseWorkout"
+                    >
+                      Workout 041
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
