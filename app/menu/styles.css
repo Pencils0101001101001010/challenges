@@ -1,0 +1,171 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='48' height='48' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M11.704 29.53L29.64 11.592a3.555 3.555 0 015.038 0l1.618 1.619a3.555 3.555 0 010 5.038L18.361 36.186a3.555 3.555 0 01-5.039 0l-1.618-1.619a3.555 3.555 0 010-5.038zm6.657-17.937L36.296 29.53a3.555 3.555 0 010 5.038l-1.618 1.619a3.555 3.555 0 01-5.038 0L11.704 18.25a3.555 3.555 0 010-5.038l1.618-1.619a3.555 3.555 0 015.039 0z'   stroke-linecap='square' stroke-width='0.5' stroke='hsla(47,80.9%,61%,1)' fill='none'/><path d='M-.031-3.309A3.309 3.309 0 10.03 3.309 3.309 3.309 0 00-.03-3.31zm48 0a3.309 3.309 0 10.062 6.618 3.309 3.309 0 00-.062-6.618zm-48 48A3.309 3.309 0 10.03 51.31 3.309 3.309 0 00-.03 44.69zm48 0a3.309 3.309 0 10.062 6.618 3.309 3.309 0 00-.062-6.618z'   stroke-linecap='square' stroke-width='0.5' stroke='hsla(4.1,89.6%,58.4%,1)' fill='none'/><path d='M24-48.353A24.353 24.353 0 00-.353-24a24.353 24.353 0 0018.1 23.536L24-6.716l6.252 6.252A24.353 24.353 0 0048.353-24 24.353 24.353 0 0024-48.353zm-48 48A24.353 24.353 0 00-48.353 24 24.353 24.353 0 00-24 48.353a24.353 24.353 0 0023.536-18.1L-6.716 24l6.252-6.253A24.353 24.353 0 00-24-.353zm96 0a24.353 24.353 0 00-23.537 18.1L54.716 24l-6.252 6.252A24.353 24.353 0 0072 48.353 24.353 24.353 0 0096.353 24 24.353 24.353 0 0072-.353zM17.748.463A24.353 24.353 0 00.464 17.748L6.716 24 .463 30.252a24.353 24.353 0 0017.285 17.284L24 41.284l6.252 6.253a24.353 24.353 0 0017.285-17.284L41.284 24l6.253-6.253A24.353 24.353 0 0030.252.463L24 6.716zm0 48A24.353 24.353 0 00-.353 72 24.353 24.353 0 0024 96.353 24.353 24.353 0 0048.353 72a24.353 24.353 0 00-18.1-23.536L24 54.716z'   stroke-linecap='square' stroke-width='0.5' stroke='hsla(186.8,100%,41.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  height: 100vh;
+}
+
+.menuBody {
+  background-color: #00000018;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  height: auto;
+  width: 40%;
+  border-radius: 20px;
+  border: white solid 1px;
+  margin-top: 5rem;
+}
+
+.menGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px repeat(3, auto) 60px;
+  color: rgb(188, 161, 68);
+}
+
+.shopName {
+  display: flex;
+  align-items: center;
+  background-color: rgb(42, 42, 48);
+  border-radius: 0% 100% 75% 25% / 100% 0% 100% 0%;
+  border-top-left-radius: 20px;
+  align-content: center;
+  padding-left: 1rem;
+}
+
+.shopName > span {
+  font-size: 2rem;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.contctSection {
+  justify-items: center;
+  align-content: center;
+}
+
+.menuSection {
+  margin: 1rem;
+}
+
+.itmeName {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.itemDesc {
+  font-size: 0.8rem;
+}
+
+.menuSection > p {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.menuSection > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imBrd {
+  border: rgb(188, 161, 68) solid 1px;
+
+  margin: 5px;
+  border-radius: 30% 70% 75% 25% / 66% 20% 80% 34%;
+}
+
+.frstBorder {
+  border: rgb(188, 161, 68) solid 1px;
+  border-radius: 30% 70% 75% 25% / 66% 20% 80% 34%;
+
+  justify-self: center;
+  width: 200;
+  height: 200;
+}
+
+.mnIm {
+  display: flex;
+  justify-self: center;
+  width: 180px;
+  height: 180px;
+
+  object-fit: cover;
+  border-radius: 30% 70% 75% 25% / 66% 20% 80% 34%;
+}
+
+.ft {
+  grid-column: span 2;
+  background-color: rgb(42, 42, 48);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .menuBody {
+    background-color: #00000018;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    border: white solid 1px;
+  }
+
+  .ft {
+    grid-column: span 2;
+    background-color: rgb(42, 42, 48);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='48' height='48' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M11.704 29.53L29.64 11.592a3.555 3.555 0 015.038 0l1.618 1.619a3.555 3.555 0 010 5.038L18.361 36.186a3.555 3.555 0 01-5.039 0l-1.618-1.619a3.555 3.555 0 010-5.038zm6.657-17.937L36.296 29.53a3.555 3.555 0 010 5.038l-1.618 1.619a3.555 3.555 0 01-5.038 0L11.704 18.25a3.555 3.555 0 010-5.038l1.618-1.619a3.555 3.555 0 015.039 0z'   stroke-linecap='square' stroke-width='0.5' stroke='hsla(47,80.9%,61%,1)' fill='none'/><path d='M-.031-3.309A3.309 3.309 0 10.03 3.309 3.309 3.309 0 00-.03-3.31zm48 0a3.309 3.309 0 10.062 6.618 3.309 3.309 0 00-.062-6.618zm-48 48A3.309 3.309 0 10.03 51.31 3.309 3.309 0 00-.03 44.69zm48 0a3.309 3.309 0 10.062 6.618 3.309 3.309 0 00-.062-6.618z'   stroke-linecap='square' stroke-width='0.5' stroke='hsla(4.1,89.6%,58.4%,1)' fill='none'/><path d='M24-48.353A24.353 24.353 0 00-.353-24a24.353 24.353 0 0018.1 23.536L24-6.716l6.252 6.252A24.353 24.353 0 0048.353-24 24.353 24.353 0 0024-48.353zm-48 48A24.353 24.353 0 00-48.353 24 24.353 24.353 0 00-24 48.353a24.353 24.353 0 0023.536-18.1L-6.716 24l6.252-6.253A24.353 24.353 0 00-24-.353zm96 0a24.353 24.353 0 00-23.537 18.1L54.716 24l-6.252 6.252A24.353 24.353 0 0072 48.353 24.353 24.353 0 0096.353 24 24.353 24.353 0 0072-.353zM17.748.463A24.353 24.353 0 00.464 17.748L6.716 24 .463 30.252a24.353 24.353 0 0017.285 17.284L24 41.284l6.252 6.253a24.353 24.353 0 0017.285-17.284L41.284 24l6.253-6.253A24.353 24.353 0 0030.252.463L24 6.716zm0 48A24.353 24.353 0 00-.353 72 24.353 24.353 0 0024 96.353 24.353 24.353 0 0048.353 72a24.353 24.353 0 00-18.1-23.536L24 54.716z'   stroke-linecap='square' stroke-width='0.5' stroke='hsla(186.8,100%,41.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    height: 100vh;
+  }
+
+  .menuBody {
+    background-color: #00000018;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    margin-top: 5rem;
+    height: auto;
+    border-radius: 20px;
+    border: white solid 1px;
+  }
+
+  .menGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    color: rgb(188, 161, 68);
+  }
+
+  .mnIm {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .imBrd {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .frstBorder {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .ft {
+    grid-column: span 1;
+    background-color: rgb(42, 42, 48);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
