@@ -347,6 +347,11 @@ export const Navbar = () => {
                       favorite btn 044
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="infoCard">
+                      Info Card 045
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
