@@ -352,6 +352,11 @@ export const Navbar = () => {
                       Info Card 045
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="invoice">
+                      Invoice 046
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

@@ -1,0 +1,97 @@
+.invContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+.invoiceBody {
+  height: auto;
+  width: 50rem;
+  box-shadow: rgba(0, 0, 0, 0.279) 0px 5px 10px 1px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.invoiceHeaderSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* border: black solid 1px; */
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.279) 0px 5px 10px 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.companyDetails {
+  flex-direction: column;
+}
+
+.clientInfoSection {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 1px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.invBodyGrid {
+  width: 100%;
+  justify-items: center;
+  margin-bottom: 1rem;
+}
+
+.invTableHead {
+  background-color: rgba(0, 7, 7, 0.206);
+  height: 50px;
+}
+
+.invTableRow {
+  padding: 1rem;
+  border-bottom: rgba(0, 0, 0, 0.144) solid 1px;
+}
+
+.totalSection {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: black solid 1px;
+}
+
+/* 1. Hide mobile view by default (on desktops, laptops, and tablets) */
+.mobileView {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  /* Hide the desktop components completely */
+  .invoiceBody,
+  .invoiceHeaderSection,
+  .companyDetails,
+  .invBodyGrid {
+    display: none;
+  }
+
+  /* Show and style the mobile component */
+  .mobileView {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: black solid 1px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.279) 0px 5px 20px 1px;
+    font-family:
+      "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 5rem;
+  }
+
+  /* Reset container height if needed for mobile scrolling */
+  .invContainer {
+    height: auto;
+    min-height: 100vh;
+  }
+}
