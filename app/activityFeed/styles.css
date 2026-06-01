@@ -1,0 +1,300 @@
+.activityFeedGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  padding: 5rem;
+  gap: 1.5rem;
+}
+
+.focusPointContainer {
+  grid-column: span 3;
+  grid-row: span 3;
+  background-image: url("../../assets/img/capeTown.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.containerNextToFocusPoint {
+  grid-column: span 2;
+  grid-row: span 3;
+  background-image: url("../../assets/img/donate3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.userImgStyles {
+  object-fit: cover;
+  object-position: center;
+  width: 80px;
+  height: 80px;
+  margin: 1rem;
+  border-radius: 50%;
+  border: greenyellow solid 4px;
+}
+
+.userDetailsSec {
+  background-color: rgba(0, 0, 0, 0.427);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  font-size: 2rem;
+}
+
+.detailsSection {
+  display: flex;
+  position: absolute;
+  bottom: 0rem;
+  padding: 1rem;
+  left: 0rem;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.451);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.focusPointTileStyles {
+  font-size: 1.5rem;
+}
+
+.smallerSectionsBelowMain1 {
+  grid-row: span 2;
+  background-image: url("../../assets/img/marryMeChicken.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.smallerTileStyles {
+  font-size: 1rem;
+}
+
+.userImgStylesForSmallerContainers {
+  object-fit: cover;
+  object-position: center;
+  width: 50px;
+  height: 50px;
+  margin: 1rem;
+  border-radius: 50%;
+
+  border: rgba(172, 255, 47, 0.305) solid 4px;
+}
+
+.userDetailsSecForSmallerCards {
+  background-color: rgba(0, 0, 0, 0.427);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  font-size: 1rem;
+}
+
+.smallerSectionsBelowMain2 {
+  grid-row: span 2;
+  background-image: url("../../assets/img/whale.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.smallerSectionsBelowMain3 {
+  grid-row: span 2;
+  background-image: url("../../assets/img/newcarmap.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.smallerSectionsBelowMain4 {
+  grid-row: span 2;
+  background-image: url("../../assets/img/mars4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.smallerSectionsBelowMain5 {
+  grid-row: span 2;
+  background-image: url("../../assets/img/bergers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media (max-width: 600px) {
+  .activityFeedGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    height: 100%;
+    gap: 1rem;
+  }
+
+  .focusPointContainer {
+    grid-column: span 1;
+    grid-row: span 3;
+    background-image: url("../../assets/img/capeTown.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .containerNextToFocusPoint {
+    grid-column: span 1;
+    grid-row: span 3;
+    background-image: url("../../assets/img/donate3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .smallerSectionsBelowMain1 {
+    grid-row: span 3;
+
+    background-image: url("../../assets/img/marryMeChicken.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .smallerSectionsBelowMain2 {
+    grid-row: span 3;
+    background-image: url("../../assets/img/whale.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .smallerSectionsBelowMain3 {
+    grid-row: span 3;
+    background-image: url("../../assets/img/newcarmap.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .smallerSectionsBelowMain4 {
+    grid-row: span 3;
+    background-image: url("../../assets/img/mars4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .smallerSectionsBelowMain5 {
+    grid-row: span 3;
+    background-image: url("../../assets/img/bergers.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+    box-shadow:
+      rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .userImgStyles {
+    object-fit: cover;
+    object-position: center;
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+    border-radius: 50%;
+    border: greenyellow solid 4px;
+  }
+
+  .userDetailsSec {
+    background-color: rgba(0, 0, 0, 0.427);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .detailsSection {
+    display: flex;
+    position: absolute;
+    bottom: 0rem;
+    padding: 1rem;
+    left: 0rem;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.451);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .focusPointTileStyles {
+    font-size: 1rem;
+  }
+}
