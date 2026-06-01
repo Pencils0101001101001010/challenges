@@ -23,7 +23,7 @@ export default function page() {
         {/* user name & image */}
         <div className="userDetailsSec">
           <Image src={user1} alt="user" className="userImgStyles" />
-          Jess the traveler
+          Weekly Rates
         </div>
       </span>
       <span className="containerNextToFocusPoint">
