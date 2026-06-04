@@ -1,0 +1,54 @@
+.notificationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(5, 5, 5, 0.674);
+}
+
+.phoneBody {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 32px 297px 80px 80px 80px 30px 100px;
+  width: 400px;
+  height: 700px;
+  background-image: url("../../assets/img/mobileBg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: rgb(38, 57, 77) 0px 50px 50px -10px;
+}
+
+.cameraSection {
+  align-content: center;
+  color: rgb(25, 25, 25);
+}
+
+.timeDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeAloneSection {
+  font-size: 3rem;
+}
+
+.messageStyle {
+  display: grid;
+  grid-template-columns: 45px 300px 30px;
+  background-color: rgba(240, 248, 255, 0.282);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.fingerPrintSection {
+  justify-self: center;
+  align-self: center;
+}

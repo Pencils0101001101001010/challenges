@@ -373,6 +373,14 @@ export const Navbar = () => {
                       Coming Soon 048
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="notificationDesign"
+                    >
+                      Notification 049
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
