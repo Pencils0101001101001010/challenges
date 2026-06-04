@@ -1,0 +1,50 @@
+.cmgSoonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(20, 21, 23);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.comingSoonBox {
+  margin: 5rem;
+  width: 80rem;
+  height: 50rem;
+  position: relative;
+  background-image: url("../../assets/img/comingtotown.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 25px;
+  box-shadow:
+    -10px -10px 20px #ff007f,
+    /* Neon Pink (Top-Left) */ 10px -10px 20px #00f0ff,
+    /* Neon Cyan (Top-Right) */ 10px 10px 20px #ff0000,
+    /* Red (Bottom-Right) */ -10px 10px 20px #00ff00; /* Green (Bottom-Left) */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainHeaderTitle {
+  font-size: clamp(2.5rem, 8vw, 5rem); /* Dynamically scales font size */
+  margin: 0;
+}
+
+.underTitle {
+  font-size: clamp(2rem, 4vw, 3rem); /* Dynamically scales font size */
+  align-self: flex-start; /* Pushes subtitle to the right side */
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .comingSoonBox {
+    margin: 1rem;
+    height: 60vh; /* Scales down height proportionally on mobile */
+    border-radius: 15px;
+  }
+}

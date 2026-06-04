@@ -365,6 +365,14 @@ export const Navbar = () => {
                       Activity Feed 047
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="comingSoon"
+                    >
+                      Coming Soon 048
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
