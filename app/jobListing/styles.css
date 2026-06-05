@@ -1,0 +1,97 @@
+.jobListContainer {
+  padding-top: 5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.searchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8em;
+  background: #ebeeae;
+  padding: 1rem;
+  background: radial-gradient(
+    circle,
+    rgba(235, 238, 174, 1) 0%,
+    rgba(148, 233, 166, 1) 100%
+  );
+}
+
+.jobListInpStl {
+  width: 300px;
+  height: 3em;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.jobBSidedCon {
+  display: flex;
+  justify-self: center;
+  width: 80%;
+}
+
+.jobBodyGrid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.jobFilterSidebar {
+  grid-row: span 8;
+  padding: 1rem;
+  border-left: #edf37e solid 1px;
+}
+
+.listOfJobCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  width: 100%;
+  border:
+    rgb(233, 238, 126),
+    solid 2px;
+  border-radius: 20px;
+}
+
+.listOfJobCard:hover {
+  background-color: rgba(148, 233, 166);
+}
+
+.jobListTitle {
+  grid-column: span 2;
+  padding: 1rem;
+  border-radius: 15px;
+  background: radial-gradient(
+    circle,
+    rgba(235, 238, 174, 1) 0%,
+    rgba(148, 233, 166, 1) 100%
+  );
+}
+
+.jbListSideBarItems {
+  justify-self: center;
+  padding: 1rem;
+  border-bottom: #edf37e solid 1px;
+}
+
+@media (max-width: 600px) {
+  .jobBSidedCon {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+  }
+
+  .jobBodyGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .jobFilterSidebar {
+    display: none;
+  }
+}

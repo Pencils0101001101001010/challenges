@@ -381,6 +381,14 @@ export const Navbar = () => {
                       Notification 049
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="jobListing"
+                    >
+                      Job listing 050
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
