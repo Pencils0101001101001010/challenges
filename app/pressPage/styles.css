@@ -1,0 +1,94 @@
+.press-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 5rem;
+}
+
+.page-title {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px;
+  max-width: 70%;
+  background-color: rgba(0, 255, 255, 0.14);
+  border-radius: 93% 7% 98% 2% / 26% 16% 84% 74%;
+}
+
+.left-top-of-grid {
+  border: rgba(0, 0, 255, 0.163) solid 1px;
+  border-radius: 76% 24% 49% 51% / 33% 42% 58% 67%;
+  padding: 2rem;
+}
+
+.first-letter {
+  font-size: 3rem;
+}
+
+.rest-of-first-word {
+  font-size: 1.5rem;
+}
+
+.info-section-of-grid {
+  background-image: url("../../assets/img/coffee1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: rgb(247, 123, 144) solid 1px;
+  border-radius: 80% 20% 45% 55% / 91% 95% 5% 9%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 600px) {
+  .press-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 4rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .press-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    min-width: 100%;
+    background-color: rgba(0, 255, 255, 0.14);
+    border-radius: 93% 7% 98% 2% / 26% 16% 84% 74%;
+  }
+
+  .left-top-of-grid {
+    border: rgba(0, 0, 255, 0.163) solid 1px;
+    border-radius: 76% 24% 49% 51% / 33% 42% 58% 67%;
+  }
+
+  .first-letter {
+    font-size: 3rem;
+  }
+
+  .rest-of-first-word {
+    font-size: 1.5rem;
+  }
+
+  .info-section-of-grid {
+    background-image: url("../../assets/img/coffee1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: rgb(247, 123, 144) solid 1px;
+    border-radius: 80% 20% 45% 55% / 91% 95% 5% 9%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
