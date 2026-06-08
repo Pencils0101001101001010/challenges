@@ -394,6 +394,11 @@ export const Navbar = () => {
                       Press Page 051
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="logo">
+                      Logo 052
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
