@@ -218,7 +218,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/movieAppLanding"
                     >
-                      Movie App 025
+                      Movie App & confirm modal 025&054
                     </Link>
                   </li>
                   <li>

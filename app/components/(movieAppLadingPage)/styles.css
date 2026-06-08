@@ -5,6 +5,7 @@
   padding-top: 4rem;
   height: 100%;
   color: white;
+  position: relative;
 }
 
 .navSection {
@@ -126,17 +127,92 @@
   border-radius: 15%;
 }
 
+.modal-open-box {
+  height: 200px;
+  width: 400px;
+  background: #020024;
+  background: linear-gradient(
+    188deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(5, 5, 67) 35%,
+    rgb(1, 31, 37) 100%
+  );
+  position: absolute;
+  left: 42%;
+  bottom: 50%;
+  z-index: 10;
+  border-radius: 20px;
+}
+
+.inner-modal-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+}
+
+.message-in-modal {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.stay-button {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+  padding: 1rem;
+  margin: 5px;
+}
+
+.yes-button {
+  text-align: center;
+  align-self: center;
+  font-size: larger;
+  padding: 1rem;
+  margin: 5px;
+}
+
+.stay-button:hover {
+  background-color: rgba(240, 248, 255, 0.221);
+  border-radius: 15px;
+}
+
+.yes-button:hover {
+  background-color: rgba(240, 248, 255, 0.221);
+  border-radius: 15px;
+}
+
+nav > button {
+  background: none;
+  color: white;
+  border: none;
+}
+
 @media (max-width: 600px) {
   .movieTitle {
     position: absolute;
-    top: 2rem;
+    top: 2;
     left: 1rem;
     font-size: 3rem;
   }
 
+  .modal-open-box {
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    left: 3%;
+    bottom: 50%;
+    z-index: 10;
+    border-radius: 20px;
+  }
+
   .movieDescription {
     position: absolute;
-    top: 6rem;
+    top: 8rem;
     left: 1rem;
     width: 300px;
   }
