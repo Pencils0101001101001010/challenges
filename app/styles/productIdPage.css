@@ -5,7 +5,12 @@
 }
 
 .perantContainer {
-  padding: 3rem;
+  padding: 5rem;
+}
+
+.bread-crumb-con {
+  font-size: larger;
+  font-weight: 200;
 }
 
 .imageStyles {
