@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import BootstrapClient from "./components/BootstrapClient";
 import { Navbar } from "./components/Navbar";
+import { CartProvider } from "./context/CartContext";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,8 +33,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        {children}
+        <CartProvider>
+          {" "}
+          <Navbar />
+          {children}
+        </CartProvider>
+
         <BootstrapClient />
       </body>
     </html>

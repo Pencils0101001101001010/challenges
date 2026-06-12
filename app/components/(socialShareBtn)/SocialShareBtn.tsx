@@ -2,6 +2,8 @@ import Image from "next/image";
 import "../../styles/socialSharebtn.css";
 import SocialShareBtnModal from "./socailSharebtnModal";
 import Link from "next/link";
+import AddToCartBtn from "./AddToCartBtn";
+import CartComponent from "./CartComponent";
 
 export const dynamic = "force-dynamic";
 
@@ -26,6 +28,11 @@ export const SocialShareBtn = async () => {
 
     return (
       <div className="perantContainer">
+        <div className="cart-dropdown">
+          <h1>Shop</h1>
+          <CartComponent />
+        </div>
+
         <div className="pageBody">
           {products.map((product: any) => (
             <div key={product.id} className="card cardStyles">
@@ -46,20 +53,14 @@ export const SocialShareBtn = async () => {
                 <p className="card-text text-truncate">R {product.price}</p>
 
                 <div className="cardBtns">
-                  <SocialShareBtnModal
-                    id={product.id}
-                    image={product.image}
-                    title={product.title}
-                    description={product.description}
-                    price={product.price}
-                  />
-
                   <Link
                     href={`/socialShareBtn/${product.id}`}
                     className="btn btn-dark"
                   >
                     View Product
                   </Link>
+
+                  <AddToCartBtn product={product} />
                 </div>
               </div>
             </div>
