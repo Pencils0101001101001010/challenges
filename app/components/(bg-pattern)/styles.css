@@ -127,6 +127,8 @@
   background-color: #00baad;
 }
 
+/* Me playing around */
+
 .my-test-pattern {
   background: radial-gradient(
     circle at center in hsl longer hue,
@@ -136,4 +138,25 @@
   );
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  .grid-body-patterns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    border: black solid 1px;
+    height: 80%;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: rgba(252, 251, 251, 0.414);
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
 }
