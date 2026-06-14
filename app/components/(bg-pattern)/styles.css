@@ -138,6 +138,19 @@
   );
   height: 100%;
   width: 100%;
+  animation: myMove 1s infinite;
+}
+
+@keyframes myMove {
+  50% {
+    background: radial-gradient(
+      circle at center in hsl longer hue,
+      rgb(234, 0, 255) 0,
+      rgb(0, 255, 4),
+      rgb(69, 208, 176) 100%
+    );
+    transition: ease-in;
+  }
 }
 
 @media (max-width: 600px) {
