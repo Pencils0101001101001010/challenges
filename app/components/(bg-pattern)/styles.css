@@ -1,0 +1,139 @@
+.bg-pattern-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-font-style {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.666);
+}
+
+.grid-body-patterns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  border: black solid 1px;
+  height: 80%;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgba(252, 251, 251, 0.414);
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.stripe-background {
+  background-color: rgba(56, 251, 150, 0.664);
+  background-image: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgba(77, 201, 246, 0.54) 50%
+  );
+  background-size: 50px 50px;
+  border-radius: 15px;
+  box-shadow:
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.cross-pattern {
+  background:
+    radial-gradient(
+      circle,
+      transparent 20%,
+      #f8f8f9 80%,
+      #f8f8f9 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 80%,
+        #f8f8f9 20%,
+        #f8f8f9 80%,
+        transparent 80%,
+        transparent
+      )
+      50px 50px,
+    linear-gradient(#df88a9 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #900c3f 8px, transparent 8px) -4px 0;
+  background-color: #f8f8f9;
+  background-size:
+    100px 100px,
+    100px 100px,
+    50px 50px,
+    50px 50px;
+
+  border-radius: 15px;
+  box-shadow:
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.wave-pattern {
+  background:
+    radial-gradient(
+      circle at 100% 50%,
+      transparent 20%,
+      #48acc8 30%,
+      #48acc8 30%,
+      transparent 30%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 0% 50%,
+        transparent 20%,
+        #48acc8 30%,
+        #48acc8 30%,
+        transparent 30%,
+        transparent
+      )
+      0 -50px;
+  background-color: #f8c809;
+  background-size: 75px 100px;
+  border-radius: 15px;
+  box-shadow:
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.zig-zag-pattern {
+  border-radius: 15px;
+  box-shadow:
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+  background:
+    linear-gradient(100deg, #0303e44f 25%, transparent 25%) -50px 0,
+    linear-gradient(50deg, #6060f2 25%, transparent 25%) -50px 0,
+    linear-gradient(80deg, #54fd9a 25%, transparent 25%),
+    linear-gradient(50deg, #9f14ea 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #00baad;
+}
+
+.my-test-pattern {
+  background: radial-gradient(
+    circle at center in hsl longer hue,
+    red 0,
+    blue,
+    green 100%
+  );
+  height: 100%;
+  width: 100%;
+}

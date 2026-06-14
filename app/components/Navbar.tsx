@@ -399,6 +399,11 @@ export const Navbar = () => {
                       Logo 052
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="bgPattern">
+                      Background 059
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
