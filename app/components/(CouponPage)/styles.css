@@ -1,0 +1,93 @@
+.coupon-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-grid-layout {
+  display: grid;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: 1fr;
+  height: 300px;
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.box-background-style {
+  background-image: url("../../../assets/img/plant3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 0px 30px -15px;
+}
+
+.text-area-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  box-shadow: rgb(38, 57, 77) 0px 0px 30px -12px;
+  /* border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem; */
+  border-radius: 1rem;
+  background-color: rgb(221, 209, 195);
+}
+
+.coupon-header-style {
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 1rem;
+}
+
+.description-section {
+  font-size: larger;
+  text-align: center;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.coupon-btn-style {
+  text-align: center;
+  align-self: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(135, 112, 84, 0.491);
+  font-size: 1.5rem;
+  font-weight: 200;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 1rem;
+}
+
+@media (width < 600px) {
+  .container-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(212, 213, 207);
+  }
+
+  .box-background-style {
+    background-image: url("../../../assets/img/plant1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    -webkit-mask-image: linear-gradient(to top, black 80%, transparent 100%);
+    mask-image: linear-gradient(to top, black 80%, transparent 100%);
+  }
+
+  .coupon-header-style {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    align-content: center;
+  }
+}
