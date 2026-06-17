@@ -409,6 +409,11 @@ export const Navbar = () => {
                       Coupon 061
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="best-of">
+                      Best of 063
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
