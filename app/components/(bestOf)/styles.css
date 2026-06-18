@@ -1,0 +1,90 @@
+.best-of-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(7, 1, 52, 0.587);
+}
+
+.main-box-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: 80%;
+  width: 90%;
+  background-image: url("../../../assets/img/artist_of_the.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.best-of-header-text {
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 6rem;
+  text-decoration: dashed;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 0, 0, 0.705) 0,
+    rgba(0, 0, 255, 0.632),
+    rgba(0, 128, 0, 0.793) 100%
+  );
+}
+
+.description-for-best-of {
+  background-color: rgba(194, 238, 232, 0.615);
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.best-of-image-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.777);
+}
+
+.best-of-img-1 {
+  background-image: url("../../../assets/img/var1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+}
+.best-of-img-2 {
+  background-image: url("../../../assets/img/var2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+}
+.best-of-img-3 {
+  background-image: url("../../../assets/img/var3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+}
+.best-of-img-4 {
+  background-image: url("../../../assets/img/var4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+}
