@@ -1,4 +1,116 @@
 .user-select-modal-body {
-  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  background-image: url("../../../assets/img/hall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.user-select-modal-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 70px repeat(2, 1fr);
+  width: 70%;
+  height: 80%;
+  background-color: #1b211a30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.border-style-next-header {
+  background-color: white;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-right: 1rem;
+  width: 4rem;
+  height: 2rem;
+}
+
+.select-modal-header {
+  grid-column: span 2;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.user-types {
+  justify-items: center;
+  grid-row: span 2;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.user-types:hover {
+  border: white solid 4px;
+  border-radius: 1rem;
+  background-color: #ffffff30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.inner-user-t-select {
+  border: black solid 1px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 80%;
+  height: 80%;
+  background-image: url("../../../assets/img/guitar.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.inner-user-t-select2 {
+  border: black solid 1px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 80%;
+  height: 80%;
+  background-image: url("../../../assets/img/bass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.inner-user-t-select3 {
+  border: black solid 1px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 80%;
+  height: 80%;
+  background-image: url("../../../assets/img/drums.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.next-btn-user {
+  grid-column: span 3;
+}
+
+.select-user-next-btn-stl {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .user-select-modal-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px auto;
+    width: 70%;
+    height: 80%;
+    background-color: #1b211a30;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
 }
