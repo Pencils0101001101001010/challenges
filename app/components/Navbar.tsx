@@ -422,6 +422,14 @@ export const Navbar = () => {
                       Select user 064
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="https://qc-report.vercel.app/login?callbackUrl=%2Fdashboard"
+                    >
+                      Statistics 066
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
