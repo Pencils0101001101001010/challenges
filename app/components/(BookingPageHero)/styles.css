@@ -1,0 +1,82 @@
+.navbar-style-booking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+  background: yellowgreen;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  padding-left: 0.5rem;
+}
+
+.nav-search-bar-bp {
+  border: none;
+  border-radius: 15px;
+  padding: 0.3rem;
+}
+
+.booking-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: 5px;
+}
+
+/* ----------Body---------- */
+.booking-page-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+
+.booking-page-hero-body {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+}
+
+.bp-hero-image-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  border-bottom: greenyellow solid 1px;
+}
+
+.b-page-input-styles {
+  border: none;
+  padding: 0.5rem;
+}
+
+.bp-btn {
+  border: none;
+  padding: 1rem;
+  background-color: greenyellow;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
+
+.bp-hero-image-section > label {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-info-section {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.bp-map-section {
+  background-image: url("../../../assets/img/carsmaps.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}

@@ -430,6 +430,14 @@ export const Navbar = () => {
                       Statistics 066
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="bookingPage"
+                    >
+                      Booking page 067
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
