@@ -51,6 +51,9 @@
 .b-page-input-styles {
   border: none;
   padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: rgba(172, 255, 47, 0.36);
+  border-radius: 20px;
 }
 
 .bp-btn {
@@ -69,14 +72,236 @@
 
 .page-info-section {
   display: grid;
-  grid-template-columns: 200px 1fr 1fr;
+  grid-template-columns: 300px 1fr 1fr;
   grid-template-rows: auto;
+  gap: 15;
+  margin-top: 1rem;
 }
 
 .bp-map-section {
-  background-image: url("../../../assets/img/carsmaps.png");
+  background-image: url("../../../assets/img/bookingmap.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  grid-row: span 1;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 1rem;
+  color: rgb(252, 252, 251);
+  font-weight: 800;
+}
+
+.first-row-title {
+  grid-column: span 3;
+}
+
+.sort-menu {
+  display: flex;
+  flex-direction: column;
+  grid-row: span 3;
+}
+
+.pensioners-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-left: greenyellow solid 8px;
+  border-radius: 20px;
+}
+
+.pensioners-section > span {
+  margin-left: 0.5rem;
+}
+
+.pensioners-section > span > input {
+  margin-right: 0.5rem;
+}
+
+.sort-menu > h4 {
+  border-bottom: greenyellow solid 1px;
+}
+
+.sort-menu > label > input {
+  margin: 1rem;
+}
+
+.first-bp-image {
+  background-image: url("../../../assets/img/home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.first-bp-image2 {
+  background-image: url("../../../assets/img/room2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.first-bp-image3 {
+  background-image: url("../../../assets/img/room1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.first-bp-image4 {
+  background-image: url("../../../assets/img/room3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.detail-section-of-bnb {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  grid-template-rows: 50px 40px auto auto 50px;
+}
+
+.detail-section-of-bnb > p {
+  text-decoration: line-through;
+}
+
+.detail-section-of-bnb > span {
+  color: rgba(0, 0, 0, 0.488);
+}
+
+.check-list {
+  grid-row: span 3;
+  color: rgba(0, 0, 0, 0.488);
+}
+
+.badge-style {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 0.5rem;
+  background-color: rgba(172, 255, 47, 0.323);
+}
+
+.detail-section-of-bnb > button {
+  border: none;
+  margin: 0.5rem;
+  background-color: greenyellow;
+  border-radius: 15px;
+}
+
+.view-on-desktop {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  /* ----------Body---------- */
+
+  .booking-page-hero-body {
+    display: none;
+  }
+
+  .bp-hero-image-section {
+    display: none;
+  }
+
+  .b-page-input-styles {
+    display: none;
+  }
+
+  .bp-btn {
+    display: none;
+  }
+
+  .bp-hero-image-section > label {
+    display: none;
+  }
+
+  .page-info-section {
+    display: none;
+  }
+
+  .bp-map-section {
+    display: none;
+  }
+
+  .first-row-title {
+    display: none;
+  }
+
+  .sort-menu {
+    display: none;
+  }
+
+  .pensioners-section {
+    display: none;
+  }
+
+  .pensioners-section > span {
+    display: none;
+  }
+
+  .pensioners-section > span > input {
+    display: none;
+  }
+
+  .sort-menu > h4 {
+    display: none;
+  }
+
+  .sort-menu > label > input {
+    display: none;
+  }
+
+  .first-bp-image {
+    display: none;
+  }
+
+  .first-bp-image2 {
+    display: none;
+  }
+
+  .first-bp-image3 {
+    display: none;
+  }
+
+  .first-bp-image4 {
+    display: none;
+  }
+
+  .detail-section-of-bnb {
+    display: none;
+  }
+
+  .detail-section-of-bnb > p {
+    display: none;
+  }
+
+  .detail-section-of-bnb > span {
+    display: none;
+  }
+
+  .check-list {
+    display: none;
+  }
+
+  .badge-style {
+    display: none;
+  }
+
+  .detail-section-of-bnb > button {
+    display: none;
+  }
+
+  .view-on-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+  }
 }
