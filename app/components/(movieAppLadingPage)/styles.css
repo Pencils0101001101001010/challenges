@@ -1,7 +1,7 @@
 .mainGridComponent {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 60px 600px 50px 215px 50px;
+  grid-template-rows: 60px 600px 80px 215px 80px;
   padding-top: 4rem;
   height: 100%;
   color: white;
@@ -69,6 +69,7 @@
   padding-left: 2rem;
   padding-top: 1rem;
   align-content: center;
+  margin-bottom: 1rem;
   font-size: xx-large;
 }
 
@@ -100,6 +101,25 @@
   margin: 0.5rem;
   background: none;
   border: none;
+}
+
+.movieCarouselCard > span {
+  position: absolute;
+  right: 0.4rem;
+  align-content: center;
+  background-color: aliceblue;
+  height: 100%;
+  width: 80px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.52) 80%,
+    transparent 100%
+  );
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .movieCarouselCard:hover {

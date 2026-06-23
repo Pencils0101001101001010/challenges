@@ -218,7 +218,7 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="/movieAppLanding"
                     >
-                      Movie App & confirm modal 025&054
+                      Movie App & confirm modal 025,054 & 69
                     </Link>
                   </li>
                   <li>
@@ -436,14 +436,6 @@ export const Navbar = () => {
                       href="bookingPage"
                     >
                       Booking page 067
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="dropdown-item text-white"
-                      href="trendingPage"
-                    >
-                      Trending 069
                     </Link>
                   </li>
                 </ul>
