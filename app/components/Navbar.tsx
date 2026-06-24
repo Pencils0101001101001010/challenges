@@ -438,6 +438,14 @@ export const Navbar = () => {
                       Booking page 067
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="eventFeature"
+                    >
+                      Events 70
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
