@@ -451,6 +451,14 @@ export const Navbar = () => {
                       Schedule 71
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="image-slider"
+                    >
+                      Image Slider 72
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
