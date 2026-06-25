@@ -25,13 +25,13 @@ export default function EventFeaturePage() {
 
             <div className="event-info-meta text-center">
               <p>
-                📅 <strong>Date:</strong> Saturday, September 12, 2026
+                <strong>Date:</strong> Saturday, September 12, 2026
               </p>
               <p>
-                ⏰ <strong>Time:</strong> 18:00 – 22:30
+                <strong>Time:</strong> 18:00 – 22:30
               </p>
               <p>
-                📍 <strong>Location:</strong> The Secret Gardens, Cape Town
+                <strong>Location:</strong> The Secret Gardens, Cape Town
               </p>
             </div>
 
