@@ -1,16 +1,14 @@
-/* 1. Main full-screen container */
 .full-screen-img {
   position: relative;
   width: 100%;
-  height: 100vh; /* Changed from 100% to 100vh for true full-screen */
+  height: 100vh;
   overflow: hidden;
   background-color: #000;
 }
 
-/* 2. Main background image */
 .heroImg {
   width: 100%;
-  height: 100%; /* Changed from 76% to 100% to fill the screen */
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -30,27 +28,22 @@
   border: none;
   background: none;
 
-  /* 1. FORCE ITEMS TO CENTER VERTICALLY (Prevents layout leaks) */
   align-items: center;
 
-  /* 2. CHANGE BACKGROUND TO TRANSPARENT OR SEMI-TRANSPARENT BLACK */
-  background-color: rgba(0, 0, 0, 0.6); /* Translucent dark look */
-  backdrop-filter: blur(4px); /* Optional elegant blur */
+  background-color: rgba(0, 0, 0, 0.6);
 
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-/* Ensure your thumbnails do not inherit forced stretching */
 .carouselImage {
   flex-shrink: 0;
-  height: 120px; /* Or your preferred uniform height */
+  height: 120px;
   width: 180px;
   object-fit: cover;
   object-position: center;
   border-radius: 6px;
 
-  /* 3. ENSURE NO WHITE BORDERS OR MARGINS ARE ATTACHED */
   background: transparent;
   border: none;
 }
