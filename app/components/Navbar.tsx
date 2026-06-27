@@ -467,6 +467,14 @@ export const Navbar = () => {
                       Virtual Reality 73
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="appDownload"
+                    >
+                      Download 74
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
