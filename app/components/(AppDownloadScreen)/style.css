@@ -1,0 +1,59 @@
+.download-screen-container {
+  padding-top: 5rem;
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-image: url("../../../assets/img/car-game-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dwl-sc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 6rem 1fr;
+  padding: 2rem;
+}
+
+.dl-box-header {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.dl-box-header > span {
+  color: yellow;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 3rem;
+  right: 5rem;
+  width: 20rem;
+}
+
+.buttons-section > span {
+  border: white solid 1px;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.buttons-section > span > span {
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .dwl-sc-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem repeat(2, 1fr);
+    padding: 2rem;
+  }
+
+  .dl-box-header {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
