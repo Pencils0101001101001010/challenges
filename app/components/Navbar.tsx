@@ -459,6 +459,14 @@ export const Navbar = () => {
                       Image Slider 72
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="virtualReality"
+                    >
+                      Virtual Reality 73
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

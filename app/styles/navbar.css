@@ -14,13 +14,15 @@
   backdrop-filter: blur(5px);
   min-width: 400px;
   border-radius: 15px;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;
 }
 
 .dropdown-bg :hover {
-  background-color: #1b280180;
+  background-color: #fcfcfb80;
 }
 
 .dropdownOverFlow {
-  height: 10rem;
+  height: 15rem;
   overflow-y: scroll;
 }

@@ -1,0 +1,133 @@
+.virtual-screen-body-container {
+  padding: 10rem;
+  background-color: black;
+  height: 100vh;
+}
+
+.virtual-glasses-screen {
+  background-image: url("../../../assets/img/kitchen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  border-radius: 100% 100% 100% 100% / 50% 50% 50% 50%;
+  position: relative;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  width: 5rem;
+}
+
+.fridge-marker {
+  position: absolute;
+  top: 15rem;
+  right: 28rem;
+  color: white;
+}
+
+.fridge-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.mixer-marker {
+  position: absolute;
+  bottom: 8rem;
+  right: 8rem;
+  color: white;
+}
+
+.mixer-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.extractor-marker {
+  position: absolute;
+  top: 8rem;
+  left: 25rem;
+  color: white;
+}
+
+.extractor-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.stove-marker {
+  position: absolute;
+  bottom: 8rem;
+  left: 28rem;
+  color: white;
+}
+
+.stove-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.kettle-marker {
+  position: absolute;
+  bottom: 12rem;
+  left: 13rem;
+  color: white;
+}
+
+.kettle-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.marble-marker {
+  position: absolute;
+  bottom: 2rem;
+  left: 50rem;
+  color: white;
+}
+
+.marble-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.zinc-marker {
+  position: absolute;
+  bottom: 4rem;
+  right: 18rem;
+  color: white;
+}
+
+.zinc-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
+
+.light-marker {
+  position: absolute;
+  top: 4rem;
+  right: 30rem;
+  color: white;
+}
+
+.light-marker > span {
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: black;
+  border-radius: 15px;
+}
