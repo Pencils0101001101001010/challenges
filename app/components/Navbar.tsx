@@ -475,6 +475,14 @@ export const Navbar = () => {
                       Download 74
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="preOrderPage"
+                    >
+                      Pre order page 75
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
