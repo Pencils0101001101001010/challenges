@@ -1,0 +1,58 @@
+.loader-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+/* @content: "Loading" */
+.loader {
+  --color-1: #fd09c870;
+  --size: 1px;
+
+  font-size: calc(48 * var(--size));
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: calc(2 * var(--size));
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-1);
+  box-sizing: border-box;
+  animation:
+    spotlight 3s linear infinite alternate,
+    color 4s infinite;
+}
+
+@keyframes spotlight {
+  0%,
+  20% {
+    opacity: 1;
+    letter-spacing: calc(2 * var(--size));
+  }
+  80%,
+  100% {
+    opacity: 0;
+    letter-spacing: calc(32 * var(--size));
+  }
+}
+
+@keyframes color {
+  10% {
+    color: rgba(198, 43, 226, 0.532);
+  }
+  30% {
+    color: rgb(206, 47, 255);
+  }
+  50% {
+    color: rgb(238, 47, 255);
+  }
+  60% {
+    color: rgb(255, 47, 203);
+  }
+  70% {
+    color: rgb(255, 47, 238);
+  }
+  80% {
+    color: rgb(226, 43, 177);
+  }
+}

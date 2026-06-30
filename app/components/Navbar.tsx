@@ -483,6 +483,14 @@ export const Navbar = () => {
                       Pre order page 75
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="loadingComponent"
+                    >
+                      Loafing 76
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
