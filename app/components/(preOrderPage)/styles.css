@@ -76,3 +76,72 @@
   background-color: rgba(172, 255, 47, 0.543);
   border-radius: 15px;
 }
+
+@media (max-width: 600px) {
+  .p-order-page-container {
+    padding-top: 4rem;
+    height: 100vh;
+    background-image: url("../../../assets/img/new-guitar.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pre-order-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 700px;
+  }
+
+  .pre-order-nav {
+    display: none;
+  }
+
+  .nav-options-order-page {
+    display: none;
+  }
+
+  .pre-ord-image {
+    display: none;
+  }
+
+  .pre-order-detail-section {
+    padding: 2rem;
+  }
+
+  .pre-order-detail-section > h1 {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 2rem;
+  }
+
+  .pre-order-detail-section > ul > li {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .pre-order-detail-section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pre-order-detail-section > div > span {
+    padding: 8px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.236);
+    font-size: 2rem;
+    font-weight: 200;
+    border-radius: 15px;
+  }
+
+  .pre-order-detail-section > button {
+    display: flex;
+    justify-self: end;
+    border: none;
+    padding: 1rem;
+    margin-top: 4rem;
+    background-color: rgba(172, 255, 47, 0.543);
+    border-radius: 15px;
+  }
+}
