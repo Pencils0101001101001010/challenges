@@ -14,11 +14,11 @@ export const LandingPage = () => {
       <div className="text-white center-hero row p-5">
         <div className="col-12">
           <h1 className={`${cookie.className} hero-title  `}>
-            Welcome to your daily UI archives.
+            Welcome to daily UI archives.
           </h1>
 
-          <p className="p-1">
-            Keep going you doing good! The whole point is learning
+          <p className="">
+            The following site is mostly static. I only focused on the ui
           </p>
         </div>
       </div>

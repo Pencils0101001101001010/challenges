@@ -488,7 +488,12 @@ export const Navbar = () => {
                       className="dropdown-item text-white"
                       href="loadingComponent"
                     >
-                      Loafing 76
+                      Loading 76
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="thankYou">
+                      Thank you 077
                     </Link>
                   </li>
                 </ul>
