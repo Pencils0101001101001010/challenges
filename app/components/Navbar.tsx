@@ -509,6 +509,14 @@ export const Navbar = () => {
                       Itinerary 079
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="datePicker"
+                    >
+                      Date Picker 080
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
