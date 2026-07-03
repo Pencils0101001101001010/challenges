@@ -1,0 +1,114 @@
+.invitation {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  padding-top: 5rem;
+  background-image: url("../../../assets/img/spark1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.invitation-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 80px 80px 150px 80px;
+  justify-items: center;
+  align-items: center;
+  height: 80%;
+  width: 30%;
+  color: white;
+  /* background-color: rgba(29, 43, 5, 0.823); */
+  margin-left: 10rem;
+}
+
+.invitation-container > h1 {
+  align-content: center;
+  text-align: center;
+  border-left: white solid 3px;
+  border-right: white solid 3px;
+  /* border-radius: 10%; */
+  font-weight: 200;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.invitation-container > h4 {
+  font-weight: 200;
+  text-align: center;
+}
+
+.invitation-container > p {
+  font-weight: 200;
+  text-align: center;
+}
+
+.invitation-container > ul {
+  font-weight: 200;
+}
+
+.invitation-container > span {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .invitation {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    padding-top: 5rem;
+    background-image: url("../../../assets/img/spark1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .invitation-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    color: white;
+    /* background-color: rgba(29, 43, 5, 0.823); */
+    margin-left: 0rem;
+    background-color: rgba(17, 17, 18, 0.302);
+  }
+
+  .invitation-container > h1 {
+    align-content: center;
+    text-align: center;
+    border-left: white solid 3px;
+    border-right: white solid 3px;
+    /* border-radius: 10%; */
+    font-weight: 200;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  .invitation-container > h4 {
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .invitation-container > p {
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .invitation-container > ul {
+    font-weight: 200;
+  }
+
+  .invitation-container > span {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
