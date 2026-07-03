@@ -1,0 +1,148 @@
+.itinerary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itinerary-page-layout {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 40px 70%;
+  padding: 5rem;
+  height: 100vh;
+  width: 70%;
+}
+
+.itinerary-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: span 6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-shadow: gray 0px 10px 20px -10px;
+}
+
+.itinerary-nav > span {
+  font-size: 1.5rem;
+}
+
+.user-profile-avatar-itinerary {
+  background-image: url("../../../assets/img/user4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.itinerary-body-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-column: span 6;
+  margin: 4rem;
+}
+
+.map-image-itinerary {
+  background-image: url("../../../assets/img/capeTown.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  grid-row: span 8;
+}
+
+.itinerary-detail-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itinerary-detail-body > h1 {
+  font-weight: 100;
+  padding-left: 2rem;
+}
+
+.the-timeline-body {
+  display: flex;
+  justify-content: center;
+
+  grid-row: span 7;
+}
+
+.timeline-container {
+  position: relative;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  border-left: 2px solid #ccc;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.35rem;
+  top: 0.25rem;
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.timeline-content h3 {
+  /* margin: 0 0 0.25rem 0; */
+  font-size: 1.1rem;
+}
+
+.timeline-content p {
+  margin: 0;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .itinerary-page-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px auto;
+    padding-top: 5rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .itinerary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: span 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: black solid 1px;
+  }
+
+  .itinerary-nav > span {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .user-profile-avatar-itinerary {
+    background-image: url("../../../assets/img/user4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .itinerary-body-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: aqua;
+    grid-column: auto;
+  }
+}
