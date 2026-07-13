@@ -522,6 +522,11 @@ export const Navbar = () => {
                       Button Style 083
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="badge">
+                      Badge Style 084
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
