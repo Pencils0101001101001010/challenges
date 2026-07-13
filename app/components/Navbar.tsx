@@ -527,6 +527,14 @@ export const Navbar = () => {
                       Badge Style 084
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="user-avatar"
+                    >
+                      User Avatar 087
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

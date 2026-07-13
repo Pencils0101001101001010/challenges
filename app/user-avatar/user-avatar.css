@@ -1,0 +1,65 @@
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.perant-container {
+  position: relative;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 220px 200px;
+  justify-content: center;
+  gap: 40;
+}
+
+.editButton {
+  position: absolute;
+  top: 5;
+  right: 5;
+  background-color: aquamarine;
+}
+
+.userSection {
+  grid-row: span 2;
+  background-color: #1b211a07;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.imgBg {
+  background-image: url("../../assets/img/user1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-self: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: white solid 2px;
+}
+
+.acountInfo {
+  grid-column: span 1;
+  background-color: #1b211a30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+}
+.info {
+  position: absolute;
+  left: 20;
+}
+
+.moreInfo {
+  grid-column: span 1;
+  background-color: #1b211a30;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+}
