@@ -517,6 +517,11 @@ export const Navbar = () => {
                       Date Picker 080
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="button">
+                      Button Style 083
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>

@@ -73,12 +73,12 @@
 .logo-name {
   font-size: 3rem;
   font-family: "Courier New", Courier, monospace;
-  animation: logoMove 5s infinite;
+  animation: logoMove 3s infinite;
 }
 
 @keyframes logoMove {
   50% {
-    letter-spacing: 20px;
+    scale: 1.5;
   }
 }
 
