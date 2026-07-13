@@ -1,0 +1,34 @@
+.box-container {
+  height: 100px;
+  width: 300px;
+  justify-items: center;
+  align-content: center;
+  border: black solid 1px;
+  border-radius: 15px;
+  color: black;
+  position: absolute;
+  bottom: 6rem;
+  right: 1rem;
+  padding: 1rem;
+  background-color: aliceblue;
+  z-index: 10;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.options-select {
+  display: flex;
+  flex-direction: row;
+}
+
+.agree-to-all {
+  padding: 1rem;
+}
+
+.reject-all {
+  padding: 1rem;
+}

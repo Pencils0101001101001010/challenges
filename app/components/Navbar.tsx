@@ -535,6 +535,11 @@ export const Navbar = () => {
                       User Avatar 087
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="terms">
+                      Agree to terms 089
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
