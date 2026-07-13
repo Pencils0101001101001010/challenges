@@ -18,7 +18,7 @@ export const LandingPage = () => {
           </h1>
 
           <p className="">
-            The following site is mostly static. I only focused on the ui
+            The following site is mostly static. I only focused on ui
           </p>
         </div>
       </div>
