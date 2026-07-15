@@ -49,12 +49,6 @@ export const Navbar = () => {
             >
               My dogs age
             </Link>
-            <Link className="nav-link text-white" href="/features">
-              Features
-            </Link>
-            <Link className="nav-link text-white" href="/about">
-              About
-            </Link>
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item dropdown ">
@@ -540,9 +534,17 @@ export const Navbar = () => {
                       Agree to terms 089
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="curated">
+                      Curated for you 91
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
+            <Link className="nav-link text-white" href="/curated">
+              Curated
+            </Link>
           </div>
         </div>
       </div>

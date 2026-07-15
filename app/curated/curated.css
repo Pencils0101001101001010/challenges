@@ -1,0 +1,96 @@
+.page-body-container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  min-height: 150vh;
+  background: #053233;
+  background: linear-gradient(223deg, rgb(36, 64, 1) 0%, rgb(0, 7, 36) 100%);
+}
+
+.image-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 10;
+}
+
+.img1 {
+  background-image: url("../../assets/img/cable_car.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: span 2;
+
+  width: 600px;
+  border-radius: 20px;
+}
+
+.img2 {
+  background-image: url("../../assets/img/capeTown.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.img3 {
+  background-image: url("../../assets/img/coffee.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.img4 {
+  background-image: url("../../assets/img/walkway.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.img5 {
+  background-image: url("../../assets/img/bergers.jpg");
+  background-position: center;
+  grid-column: span 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.img6 {
+  background-image: url("../../assets/img/guitar.jpg");
+  background-position: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+@media (max-width: 600) {
+  .image-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10;
+  }
+
+  .img1 {
+    background-image: url("../../assets/img/cable_car.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+
+    border-radius: 20px;
+  }
+
+  .img5 {
+    background-image: url("../../assets/img/bergers.jpg");
+    background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+}
