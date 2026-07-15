@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 5rem;
-  min-height: 150vh;
+  min-height: 120vh;
   background: #053233;
   background: linear-gradient(223deg, rgb(36, 64, 1) 0%, rgb(0, 7, 36) 100%);
 }
