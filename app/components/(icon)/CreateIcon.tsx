@@ -1,4 +1,12 @@
 import "../../styles/iconStyles.css";
+import { Black_Ops_One } from "next/font/google";
+
+// Configure the font outside the component
+const blackOpsOne = Black_Ops_One({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const CreateIcon = () => {
   return (
@@ -27,6 +35,9 @@ const CreateIcon = () => {
 
           <div className="left-bottom-holl"></div>
           <div className="right-bottom-holl"></div>
+        </div>
+        <div className={`${blackOpsOne.className} splash-title`}>
+          FILE CRYPT
         </div>
       </div>
     </div>

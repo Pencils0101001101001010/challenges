@@ -550,7 +550,7 @@ export const Navbar = () => {
                   <li>
                     <Link
                       className="dropdown-item text-white"
-                      href="splash_screen"
+                      href="/iconDesign"
                     >
                       Splash screen 93
                     </Link>
