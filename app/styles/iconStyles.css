@@ -1,3 +1,7 @@
+.background {
+  background-color: black;
+}
+
 .icon-body-center {
   display: flex;
   flex-direction: column;

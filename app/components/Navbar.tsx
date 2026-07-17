@@ -50,6 +50,9 @@ export const Navbar = () => {
               My dogs age
             </Link>
 
+            <Link className="nav-link text-white" href="/fqa">
+              FQA
+            </Link>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item dropdown ">
                 <Link
@@ -544,15 +547,17 @@ export const Navbar = () => {
                       FQA 92
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="splash_screen"
+                    >
+                      Splash screen 93
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
-            <Link className="nav-link text-white" href="/curated">
-              Curated
-            </Link>
-            <Link className="nav-link text-white" href="/fqa">
-              FQA
-            </Link>
           </div>
         </div>
       </div>
