@@ -539,11 +539,19 @@ export const Navbar = () => {
                       Curated for you 91
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-white" href="fqa">
+                      FQA 92
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
             <Link className="nav-link text-white" href="/curated">
               Curated
+            </Link>
+            <Link className="nav-link text-white" href="/fqa">
+              FQA
             </Link>
           </div>
         </div>
