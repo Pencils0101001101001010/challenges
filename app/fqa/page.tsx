@@ -5,6 +5,7 @@ export default function page() {
   const handleSound = () => {
     const audio = new Audio("/audio/fart.mp3");
     audio.play().catch((err) => alert("Audio blocked by browser."));
+    alert("This is only UI");
   };
   return (
     <div className="plant-shop-container">
