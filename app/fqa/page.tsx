@@ -1,6 +1,11 @@
+"use client";
 import "./style.css";
 
 export default function page() {
+  const handleSound = () => {
+    const audio = new Audio("/audio/fart.mp3");
+    audio.play().catch((err) => alert("Audio blocked by browser."));
+  };
   return (
     <div className="plant-shop-container">
       <div className="fqa-box-container">
@@ -26,14 +31,7 @@ export default function page() {
           love bright, indirect light where they can see the sky but not the
           direct sun.
         </div>
-        {/* <div className="questions-section">
-          <div className="q">Q: Which plants are safe for cats and dogs?</div>A:
-          Many popular plants are completely non-toxic to pets. Excellent
-          pet-safe options include Calatheas, Parlor Palms, Spider Plants,
-          Boston Ferns, and Hoyas. Always double-check a plant's safety tag
-          before buying if you have curious pets.
-        </div> */}
-        <button>Ask</button>
+        <button onClick={handleSound}>Ask</button>
       </div>
     </div>
   );
