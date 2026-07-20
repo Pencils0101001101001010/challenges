@@ -579,6 +579,14 @@ export const Navbar = () => {
                       In Stock 96
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/give-away-product"
+                    >
+                      Give Away 97
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
