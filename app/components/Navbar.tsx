@@ -555,6 +555,14 @@ export const Navbar = () => {
                       Splash screen 93
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/news-page"
+                    >
+                      News page 94
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
