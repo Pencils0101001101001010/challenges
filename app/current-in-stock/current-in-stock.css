@@ -1,0 +1,48 @@
+.in-stock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.current-stock-grid {
+  display: grid;
+  grid-template-columns: 350px 500px;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+.product-image-container {
+  height: 500px;
+  width: 100%;
+  background-image: url("../../assets/img/new-guitar.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left-side-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 80px auto;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.badge {
+  position: absolute;
+  top: 15rem;
+  right: 34rem;
+  background-color: greenyellow;
+  color: black;
+}
+
+.add-to-cart-button {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(120, 155, 83);
+}
