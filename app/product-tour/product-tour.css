@@ -1,0 +1,66 @@
+.product-tour-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbfbfb;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.product-border {
+  height: 85%;
+  width: 100%;
+}
+
+.product-image {
+  background-image: url("../../assets/img/new-guitar.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.product-title {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+}
+
+.cable-plug {
+  z-index: 10;
+  position: absolute;
+  bottom: 17rem;
+  right: 12rem;
+}
+
+.pickups {
+  position: absolute;
+  left: 9rem;
+  bottom: 20rem;
+}
+
+.beck-shape {
+  position: absolute;
+  top: 20rem;
+  right: 2.5rem;
+}
+
+.finger-board {
+  position: absolute;
+  left: 19rem;
+  top: 25rem;
+}
+
+.body-desc {
+  position: absolute;
+  left: 7rem;
+  bottom: 14rem;
+}
+
+.head-guitar {
+  position: absolute;
+  top: 12rem;
+  right: 5rem;
+}

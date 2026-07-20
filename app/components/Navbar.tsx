@@ -563,6 +563,14 @@ export const Navbar = () => {
                       News page 94
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/product-tour"
+                    >
+                      Product tour 95
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
