@@ -1,5 +1,5 @@
 .landingpage-bg-img {
-  background-image: url("../../assets/img/plant.jpg");
+  background-image: url("../../assets/img/hero-img3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,4 +29,11 @@
 
 .description-hero {
   font-size: 1.2rem;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 66vh;
 }

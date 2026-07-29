@@ -7,6 +7,7 @@ const cookie = Cookie({
   display: "swap",
 });
 export const LandingPage = () => {
+  const date = new Date().getFullYear();
   return (
     <div>
       <div className="center-hero row p-5">
@@ -19,6 +20,7 @@ export const LandingPage = () => {
             The following site is mostly static
           </p>
         </div>
+        <div className="footer-section">copyright © {date}</div>
       </div>
     </div>
   );

@@ -587,6 +587,14 @@ export const Navbar = () => {
                       Give Away 97
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      className="dropdown-item text-white"
+                      href="/advertisement"
+                    >
+                      Add 98
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
