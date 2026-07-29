@@ -9,13 +9,15 @@ const cookie = Cookie({
 export const LandingPage = () => {
   return (
     <div>
-      <div className="text-white center-hero row p-5">
+      <div className="center-hero row p-5">
         <div className="col-12">
           <h1 className={`${cookie.className} hero-title  `}>
             Welcome to daily UI archives.
           </h1>
 
-          <p className="">The following site is mostly static</p>
+          <p className="description-hero">
+            The following site is mostly static
+          </p>
         </div>
       </div>
     </div>

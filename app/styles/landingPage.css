@@ -1,11 +1,12 @@
 .landingpage-bg-img {
-  background-image: url("../../assets/img/marsplanet.jpg");
+  background-image: url("../../assets/img/plant.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  text-shadow: black 5px 5px;
+  color: white;
+  /* text-shadow: rgb(123, 145, 107) 5px 5px; */
 }
 
 .center-hero {
@@ -24,4 +25,8 @@
 .carousel-container {
   max-width: 50%;
   max-height: 50%;
+}
+
+.description-hero {
+  font-size: 1.2rem;
 }
